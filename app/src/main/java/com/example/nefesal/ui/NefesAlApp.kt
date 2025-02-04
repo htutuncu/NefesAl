@@ -7,6 +7,7 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -25,6 +26,7 @@ import com.example.nefesal.ui.screens.achievements.AchievementsScreen
 import com.example.nefesal.ui.screens.home.HomeScreen
 import com.example.nefesal.ui.screens.settings.SettingsScreen
 import com.example.nefesal.ui.screens.splash.SplashScreen
+import androidx.compose.foundation.isSystemInDarkTheme
 
 @Composable
 fun NefesAlApp() {
@@ -35,18 +37,60 @@ fun NefesAlApp() {
         Triple(Screen.Settings, "Ayarlar", Icons.Default.Settings)
     )
 
+    val isDarkTheme = isSystemInDarkTheme()
+
     Scaffold(
         bottomBar = {
             val navBackStackEntry by navController.currentBackStackEntryAsState()
             val currentDestination = navBackStackEntry?.destination
             
-            // Splash ekranında bottom bar'ı gösterme
             if (currentDestination?.route != Screen.Splash.route) {
-                NavigationBar {
+                NavigationBar(
+                    containerColor = if (isDarkTheme) {
+                        MaterialTheme.colorScheme.secondaryContainer
+                    } else {
+                        MaterialTheme.colorScheme.primaryContainer
+                    }
+                ) {
                     items.forEach { (screen, title, icon) ->
                         NavigationBarItem(
-                            icon = { Icon(icon, contentDescription = title) },
-                            label = { Text(title) },
+                            icon = { 
+                                Icon(
+                                    icon, 
+                                    contentDescription = title,
+                                    tint = if (currentDestination?.hierarchy?.any { it.route == screen.route } == true) {
+                                        if (isDarkTheme) {
+                                            MaterialTheme.colorScheme.onSecondaryContainer
+                                        } else {
+                                            MaterialTheme.colorScheme.onPrimaryContainer
+                                        }
+                                    } else {
+                                        if (isDarkTheme) {
+                                            MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.6f)
+                                        } else {
+                                            MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.6f)
+                                        }
+                                    }
+                                ) 
+                            },
+                            label = { 
+                                Text(
+                                    text = title,
+                                    color = if (currentDestination?.hierarchy?.any { it.route == screen.route } == true) {
+                                        if (isDarkTheme) {
+                                            MaterialTheme.colorScheme.onSecondaryContainer
+                                        } else {
+                                            MaterialTheme.colorScheme.onPrimaryContainer
+                                        }
+                                    } else {
+                                        if (isDarkTheme) {
+                                            MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.6f)
+                                        } else {
+                                            MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.6f)
+                                        }
+                                    }
+                                ) 
+                            },
                             selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true,
                             onClick = {
                                 navController.navigate(screen.route) {
