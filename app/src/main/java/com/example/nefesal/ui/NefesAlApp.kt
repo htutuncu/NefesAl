@@ -27,9 +27,21 @@ import com.example.nefesal.ui.screens.home.HomeScreen
 import com.example.nefesal.ui.screens.settings.SettingsScreen
 import com.example.nefesal.ui.screens.splash.SplashScreen
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.nefesal.ui.screens.home.HomeViewModel
 
 @Composable
-fun NefesAlApp() {
+fun NefesAlApp(
+    viewModel: HomeViewModel = hiltViewModel()
+) {
+    val switchState by viewModel.isDarkMode.collectAsState()
+    val coroutineScope = rememberCoroutineScope()
+
+
     val navController = rememberNavController()
     val items = listOf(
         Triple(Screen.Home, "Ana Sayfa", Icons.Default.Home),
@@ -37,7 +49,7 @@ fun NefesAlApp() {
         Triple(Screen.Settings, "Ayarlar", Icons.Default.Settings)
     )
 
-    val isDarkTheme = isSystemInDarkTheme()
+
 
     Scaffold(
         bottomBar = {
@@ -46,7 +58,7 @@ fun NefesAlApp() {
             
             if (currentDestination?.route != Screen.Splash.route) {
                 NavigationBar(
-                    containerColor = if (isDarkTheme) {
+                    containerColor = if (switchState) {
                         MaterialTheme.colorScheme.secondaryContainer
                     } else {
                         MaterialTheme.colorScheme.primaryContainer
@@ -59,13 +71,13 @@ fun NefesAlApp() {
                                     icon, 
                                     contentDescription = title,
                                     tint = if (currentDestination?.hierarchy?.any { it.route == screen.route } == true) {
-                                        if (isDarkTheme) {
+                                        if (switchState) {
                                             MaterialTheme.colorScheme.onSecondaryContainer
                                         } else {
                                             MaterialTheme.colorScheme.onPrimaryContainer
                                         }
                                     } else {
-                                        if (isDarkTheme) {
+                                        if (switchState) {
                                             MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.6f)
                                         } else {
                                             MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.6f)
@@ -77,13 +89,13 @@ fun NefesAlApp() {
                                 Text(
                                     text = title,
                                     color = if (currentDestination?.hierarchy?.any { it.route == screen.route } == true) {
-                                        if (isDarkTheme) {
+                                        if (switchState) {
                                             MaterialTheme.colorScheme.onSecondaryContainer
                                         } else {
                                             MaterialTheme.colorScheme.onPrimaryContainer
                                         }
                                     } else {
-                                        if (isDarkTheme) {
+                                        if (switchState) {
                                             MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.6f)
                                         } else {
                                             MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.6f)

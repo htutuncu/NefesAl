@@ -17,16 +17,22 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.material3.Switch
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import com.example.nefesal.ui.screens.home.HomeViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
 
 @Composable
 fun SettingsScreen(
-    viewModel: SettingsViewModel = hiltViewModel()
+    viewModel: HomeViewModel = hiltViewModel()
 ) {
-    val currentTheme = isSystemInDarkTheme()
-    val isDarkTheme by viewModel.isDarkTheme.collectAsStateWithLifecycle(initialValue = currentTheme)
+    val isDarkMode by viewModel.isDarkMode.collectAsState()
 
     Column(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
             .padding(vertical = 40.dp, horizontal = 16.dp)
     ) {
         Row(
@@ -43,9 +49,9 @@ fun SettingsScreen(
             Spacer(modifier = Modifier.weight(1f))
 
             Switch(
-                checked = isDarkTheme,
+                checked = isDarkMode,
                 onCheckedChange = {
-                    viewModel.setDarkTheme(!isDarkTheme)
+                    viewModel.toggleDarkMode()
                 }
             )
         }
