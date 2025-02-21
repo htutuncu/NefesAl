@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
@@ -22,41 +23,55 @@ import com.example.nefesal.ui.screens.home.HomeViewModel
 import dagger.hilt.android.EntryPointAccessors
 
 private val LightColorScheme = lightColorScheme(
-    primary = md_theme_light_primary,
-    onPrimary = md_theme_light_onPrimary,
-    primaryContainer = md_theme_light_primaryContainer,
-    onPrimaryContainer = md_theme_light_onPrimaryContainer,
-    secondary = md_theme_light_secondary,
-    onSecondary = md_theme_light_onSecondary,
-    secondaryContainer = md_theme_light_secondaryContainer,
-    onSecondaryContainer = md_theme_light_onSecondaryContainer,
-    surface = md_theme_light_surface
+    primary = Green60,
+    onPrimary = Color.White,
+    primaryContainer = Green20,
+    onPrimaryContainer = Green70,
+    secondary = Green40,
+    onSecondary = Color.White,
+    secondaryContainer = Green10,
+    onSecondaryContainer = Green60,
+    tertiary = GreenGray30,
+    onTertiary = Color.White,
+    tertiaryContainer = GreenGray10,
+    onTertiaryContainer = GreenGray30,
+    background = Green10,
+    surface = Green10,
+    surfaceVariant = Green20,
+    onSurfaceVariant = GreenGray20
 )
 
 private val DarkColorScheme = darkColorScheme(
-    primary = md_theme_dark_primary,
-    onPrimary = md_theme_dark_onPrimary,
-    primaryContainer = md_theme_dark_primaryContainer,
-    onPrimaryContainer = md_theme_dark_onPrimaryContainer,
-    secondary = md_theme_dark_secondary,
-    onSecondary = md_theme_dark_onSecondary,
-    secondaryContainer = md_theme_dark_secondaryContainer,
-    onSecondaryContainer = md_theme_dark_onSecondaryContainer,
-    surface = md_theme_dark_surface
+    primary = Green40,
+    onPrimary = Green70,
+    primaryContainer = Green60,
+    onPrimaryContainer = Green20,
+    secondary = Green30,
+    onSecondary = Green70,
+    secondaryContainer = Green50,
+    onSecondaryContainer = Green20,
+    tertiary = GreenGray20,
+    onTertiary = Color.White,
+    tertiaryContainer = GreenGray30,
+    onTertiaryContainer = GreenGray10,
+    background = Color(0xFF1A1C19),
+    surface = Color(0xFF1A1C19),
+    surfaceVariant = GreenGray30,
+    onSurfaceVariant = GreenGray10
 )
 
 @Composable
 fun NefesAlTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     viewModel: HomeViewModel = hiltViewModel(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    // Dynamic color'ı false yapıyoruz ki kendi renklerimizi kullanalım
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
-
     val isDarkMode by viewModel.isDarkMode.collectAsState()
 
     val colorScheme = when {
+        // Artık bu koşul hiç çalışmayacak çünkü dynamicColor false
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
             val context = LocalContext.current
             if (isDarkMode) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)

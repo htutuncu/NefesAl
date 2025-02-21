@@ -1,59 +1,235 @@
 package com.example.nefesal.ui.screens.settings
 
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.material3.Switch
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
-import com.example.nefesal.ui.screens.home.HomeViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.launch
+import com.example.nefesal.R
+import com.example.nefesal.util.localizedStringResource
+import androidx.compose.ui.graphics.Color
 
 @Composable
 fun SettingsScreen(
-    viewModel: HomeViewModel = hiltViewModel()
+    viewModel: SettingsViewModel = hiltViewModel()
 ) {
+    val showLanguageDialog = remember { mutableStateOf(false) }
+    val selectedLanguage by viewModel.selectedLanguage.collectAsState()
     val isDarkMode by viewModel.isDarkMode.collectAsState()
 
-    Column(
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp)
+        ) {
+            Text(
+                text = localizedStringResource(R.string.settings),
+                style = MaterialTheme.typography.headlineMedium,
+                modifier = Modifier.padding(vertical = 16.dp)
+            )
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                )
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 20.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = localizedStringResource(R.string.dark_mode),
+                        style = MaterialTheme.typography.titleLarge
+                    )
+                    Switch(
+                        checked = isDarkMode,
+                        onCheckedChange = { viewModel.toggleDarkMode() },
+                        colors = SwitchDefaults.colors(
+                            checkedThumbColor = MaterialTheme.colorScheme.primary,
+                            checkedTrackColor = MaterialTheme.colorScheme.primaryContainer,
+                            uncheckedThumbColor = MaterialTheme.colorScheme.outline,
+                            uncheckedTrackColor = MaterialTheme.colorScheme.surfaceVariant
+                        )
+                    )
+                }
+            }
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp)
+                    .clickable { showLanguageDialog.value = true },
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant
+                )
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 20.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = localizedStringResource(R.string.language),
+                        style = MaterialTheme.typography.titleLarge
+                    )
+                    Icon(
+                        painter = painterResource(
+                            id = when (selectedLanguage) {
+                                "tr" -> R.drawable.ic_flag_tr
+                                "en" -> R.drawable.ic_flag_en
+                                else -> R.drawable.ic_flag_tr // Default to Turkish
+                            }
+                        ),
+                        contentDescription = null,
+                        modifier = Modifier.size(40.dp),
+                        tint = Color.Unspecified
+                    )
+                }
+            }
+        }
+    }
+
+    if (showLanguageDialog.value) {
+        LanguageSelectionDialog(
+            selectedLanguage = selectedLanguage,
+            onLanguageSelected = { languageCode ->
+                viewModel.setLanguage(languageCode)
+                showLanguageDialog.value = false
+            },
+            onDismiss = { showLanguageDialog.value = false }
+        )
+    }
+}
+
+@Composable
+fun SettingsItem(
+    title: String,
+    subtitle: String? = null,
+    onClick: (() -> Unit)? = null,
+    trailing: @Composable (() -> Unit)? = null
+) {
+    Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 40.dp, horizontal = 16.dp)
+            .padding(vertical = 4.dp)
+            .then(if (onClick != null) Modifier.clickable { onClick() } else Modifier),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        )
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(56.dp),
+                .padding(16.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(
-                text = "Koyu Mod",
-                style = MaterialTheme.typography.titleLarge
-            )
-
-            Spacer(modifier = Modifier.weight(1f))
-
-            Switch(
-                checked = isDarkMode,
-                onCheckedChange = {
-                    viewModel.toggleDarkMode()
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = title,
+                    style = MaterialTheme.typography.titleMedium
+                )
+                if (subtitle != null) {
+                    Text(
+                        text = subtitle,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
                 }
-            )
+            }
+            trailing?.invoke()
         }
+    }
+}
+
+@Composable
+fun LanguageSelectionDialog(
+    selectedLanguage: String?,
+    onLanguageSelected: (String?) -> Unit,
+    onDismiss: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(localizedStringResource(R.string.language)) },
+        text = {
+            Column {
+                DialogOption(
+                    text = localizedStringResource(R.string.language_turkish),
+                    selected = selectedLanguage == "tr",
+                    onClick = { onLanguageSelected("tr") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.ic_flag_tr),
+                            contentDescription = null,
+                            modifier = Modifier.size(32.dp),
+                            tint = Color.Unspecified
+                        )
+                    }
+                )
+                DialogOption(
+                    text = localizedStringResource(R.string.language_english),
+                    selected = selectedLanguage == "en",
+                    onClick = { onLanguageSelected("en") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.ic_flag_en),
+                            contentDescription = null,
+                            modifier = Modifier.size(32.dp),
+                            tint = Color.Unspecified
+                        )
+                    }
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = onDismiss) {
+                Text(localizedStringResource(R.string.ok))
+            }
+        }
+    )
+}
+
+@Composable
+fun DialogOption(
+    text: String,
+    selected: Boolean,
+    onClick: () -> Unit,
+    icon: @Composable () -> Unit
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        RadioButton(
+            selected = selected,
+            onClick = onClick
+        )
+        Spacer(modifier = Modifier.width(8.dp))
+        icon()
+        Spacer(modifier = Modifier.width(8.dp))
+        Text(text = text)
     }
 }

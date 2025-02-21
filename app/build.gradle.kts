@@ -87,7 +87,11 @@ dependencies {
     implementation("androidx.room:room-ktx:$roomVersion")
     kapt("androidx.room:room-compiler:$roomVersion")
 
+    // Data store
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // Google Fonts
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.7.7")
 }
 
 kapt {
