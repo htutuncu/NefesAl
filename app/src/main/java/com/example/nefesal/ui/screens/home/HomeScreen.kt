@@ -100,6 +100,18 @@ fun HomeScreen(
                 .fillMaxSize()
                 .padding(16.dp)
         ) {
+            Text(
+                text = localizedStringResource(R.string.time_you_can_breathe),
+                fontFamily = loraFamily,
+                fontWeight = FontWeight.Bold,
+                fontSize = 24.sp,
+                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 16.dp),
+                textAlign = TextAlign.Center
+            )
+
             AnimatedVisibility(
                 visible = quitDate == null,
                 enter = fadeIn() + expandVertically(),
@@ -126,7 +138,7 @@ fun HomeScreen(
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
-                        text = "Sigarayı bırakmaya karar verdiğiniz ve sağlıklı yaşamayı tercih ettiğiniz için tebrik ederiz.",
+                        text = localizedStringResource(R.string.welcome_message),
                         fontFamily = loraFamily,
                         style = MaterialTheme.typography.bodyLarge,
                         textAlign = TextAlign.Center,
@@ -142,7 +154,7 @@ fun HomeScreen(
                             containerColor = MaterialTheme.colorScheme.primary
                         )
                     ) {
-                        Text(text = "Bırakma tarihinizi seçiniz")
+                        Text(text = localizedStringResource(R.string.choose_quit_time))
                     }
                 }
             } else {
@@ -201,7 +213,7 @@ fun SmokeFreeTimer(quitDate: LocalDateTime) {
         verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = Modifier
             .fillMaxWidth()
-             // Yükseklik arttı
+            // Yükseklik arttı
             .padding(horizontal = 16.dp)
     ) {
         items(timeUnits) { timeUnit ->

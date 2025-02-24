@@ -16,6 +16,10 @@ import androidx.compose.runtime.remember
 import com.example.nefesal.R
 import com.example.nefesal.util.localizedStringResource
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
+import com.example.nefesal.ui.theme.loraFamily
 
 @Composable
 fun SettingsScreen(
@@ -36,8 +40,11 @@ fun SettingsScreen(
         ) {
             Text(
                 text = localizedStringResource(R.string.settings),
-                style = MaterialTheme.typography.headlineMedium,
-                modifier = Modifier.padding(vertical = 16.dp)
+                fontFamily = loraFamily,
+                fontWeight = FontWeight.Bold,
+                fontSize = 24.sp,
+                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                modifier = Modifier.padding(8.dp)
             )
 
             Card(

@@ -12,7 +12,10 @@
     <string name="month">Month</string>
     <string name="day">Day</string>
     <string name="hour">Hour</string>
-    
+    <string name="time_you_can_breathe">The Time You Can Breathe</string>
+    <string name="welcome_message">Congratulations on deciding to quit smoking and choosing a healthy lifestyle.</string>
+    <string name="choose_quit_time">Choose the quit date</string>
+
     <!-- Navigation -->
     <string name="nav_home">Home</string>
     <string name="nav_achievements">Achievements</string>

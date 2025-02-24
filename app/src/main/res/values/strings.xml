@@ -12,6 +12,7 @@
     <string name="month">Ay</string>
     <string name="day">Gün</string>
     <string name="hour">Saat</string>
+    <string name="time_you_can_breathe">Nefes alabildiğiniz süre</string>
     
     <!-- Navigasyon -->
     <string name="nav_home">Ana Sayfa</string>
@@ -48,4 +49,6 @@
     <string name="time_saved">Kazanılan Zaman</string>
     <string name="time_format_days_hours">%1$d gün %2$d sa</string>
     <string name="time_format_hours">%d sa</string>
+    <string name="welcome_message">Sigarayı bırakmaya karar verdiğiniz ve sağlıklı yaşamayı tercih ettiğiniz için tebrik ederiz.</string>
+    <string name="choose_quit_time">Bırakma tarihinizi seçiniz</string>
 </resources>
