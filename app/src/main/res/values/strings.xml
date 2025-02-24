@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nefes Al</string>
+
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
     
     <!-- Ana Sayfa -->
     <string name="welcome">Hoş Geldiniz!</string>
@@ -28,6 +31,7 @@
     <string name="language_english">English</string>
     <string name="on">Açık</string>
     <string name="off">Kapalı</string>
+    <string name="reset">Verileri Sıfırla</string>
     
     <!-- Dialog -->
     <string name="next">İleri</string>
@@ -51,4 +55,5 @@
     <string name="time_format_hours">%d sa</string>
     <string name="welcome_message">Sigarayı bırakmaya karar verdiğiniz ve sağlıklı yaşamayı tercih ettiğiniz için tebrik ederiz.</string>
     <string name="choose_quit_time">Bırakma tarihinizi seçiniz</string>
+    <string name="are_you_sure_reset">Sıfırlamak istediğinize emin misiniz?</string>
 </resources>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Take a Breath</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
     
     <!-- Home -->
     <string name="welcome">Welcome!</string>
@@ -30,6 +33,7 @@
     <string name="language_english">English</string>
     <string name="on">On</string>
     <string name="off">Off</string>
+    <string name="reset">Reset</string>
     
     <!-- Dialog -->
     <string name="next">Next</string>
@@ -49,4 +53,5 @@
     <string name="time_saved">Time Saved</string>
     <string name="time_format_days_hours">%1$d days %2$d h</string>
     <string name="time_format_hours">%d h</string>
+    <string name="are_you_sure_reset">Are you sure?</string>
 </resources> 

@@ -70,6 +70,12 @@ class PreferencesManager @Inject constructor(
         }
     }
 
+    suspend fun resetQuitDate() {
+        dataStore.edit { preferences ->
+            preferences.remove(QUIT_DATE)
+        }
+    }
+
     suspend fun setLanguage(languageCode: String) {
         dataStore.edit { preferences ->
             preferences[LANGUAGE] = languageCode
@@ -81,6 +87,14 @@ class PreferencesManager @Inject constructor(
             preferences[CIGARETTES_PER_DAY] = data.cigarettesPerDay
             preferences[PRICE_PER_PACK] = data.pricePerPack
             preferences[MINUTES_PER_CIGARETTE] = data.minutesPerCigarette
+        }
+    }
+
+    suspend fun resetSmokingData() {
+        dataStore.edit { preferences ->
+            preferences.remove(CIGARETTES_PER_DAY)
+            preferences.remove(PRICE_PER_PACK)
+            preferences.remove(MINUTES_PER_CIGARETTE)
         }
     }
 

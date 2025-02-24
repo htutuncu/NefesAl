@@ -1,5 +1,6 @@
 package com.example.nefesal.ui.screens.settings
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -13,26 +14,44 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import com.example.nefesal.R
 import com.example.nefesal.util.localizedStringResource
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
+import com.example.nefesal.ui.screens.home.HomeViewModel
 import com.example.nefesal.ui.theme.loraFamily
+import com.example.nefesal.util.BaseBottomSheet
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
-    viewModel: SettingsViewModel = hiltViewModel()
+    viewModel: SettingsViewModel = hiltViewModel(),
+    homeViewModel: HomeViewModel = hiltViewModel()
 ) {
     val showLanguageDialog = remember { mutableStateOf(false) }
     val selectedLanguage by viewModel.selectedLanguage.collectAsState()
     val isDarkMode by viewModel.isDarkMode.collectAsState()
 
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    val scope = rememberCoroutineScope()
+    var showResetBottomSheet by remember { mutableStateOf(false) }
+
     Surface(
         modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.background
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.foggy),
+            contentDescription = "foggy",
+            modifier = Modifier.fillMaxWidth(),
+            contentScale = ContentScale.Crop
+        )
+
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -44,7 +63,7 @@ fun SettingsScreen(
                 fontWeight = FontWeight.Bold,
                 fontSize = 24.sp,
                 color = MaterialTheme.colorScheme.onPrimaryContainer,
-                modifier = Modifier.padding(8.dp)
+                modifier = Modifier.padding(top = 18.dp, bottom = 8.dp, start = 8.dp)
             )
 
             Card(
@@ -113,6 +132,31 @@ fun SettingsScreen(
                     )
                 }
             }
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                ),
+                onClick = {
+                    showResetBottomSheet = true
+                }
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 26.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = localizedStringResource(R.string.reset),
+                        style = MaterialTheme.typography.titleLarge
+                    )
+                }
+            }
         }
     }
 
@@ -124,6 +168,23 @@ fun SettingsScreen(
                 showLanguageDialog.value = false
             },
             onDismiss = { showLanguageDialog.value = false }
+        )
+    }
+
+    if (showResetBottomSheet) {
+        BaseBottomSheet(
+            primaryButtonText = localizedStringResource(id = R.string.yes),
+            secondaryButtonText = localizedStringResource(id = R.string.no),
+            headerText = localizedStringResource(id = R.string.are_you_sure_reset),
+            onDismiss = { showResetBottomSheet = false },
+            onPrimaryAction = {
+                homeViewModel.resetQuitDate()
+                homeViewModel.resetSmokingData()
+                showResetBottomSheet = false
+            },
+            onSecondaryAction = {
+                showResetBottomSheet = false
+            }
         )
     }
 }

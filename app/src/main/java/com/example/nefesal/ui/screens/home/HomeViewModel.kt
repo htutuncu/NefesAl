@@ -58,6 +58,18 @@ class HomeViewModel @Inject constructor(
         }
     }
 
+    fun resetQuitDate() {
+        viewModelScope.launch {
+            preferencesManager.resetQuitDate()
+        }
+    }
+
+    fun resetSmokingData() {
+        viewModelScope.launch {
+            preferencesManager.resetSmokingData()
+        }
+    }
+
     fun setSmokingData(cigarettesPerDay: Int, pricePerPack: Double, minutesPerCigarette: Int) {
         viewModelScope.launch {
             preferencesManager.setSmokingData(
