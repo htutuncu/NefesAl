@@ -46,7 +46,7 @@ fun SettingsScreen(
         color = MaterialTheme.colorScheme.background
     ) {
         Image(
-            painter = painterResource(id = R.drawable.foggy),
+            painter = if (isDarkMode) painterResource(id = R.drawable.bg_dark) else painterResource(id = R.drawable.bg_light),
             contentDescription = "foggy",
             modifier = Modifier.fillMaxWidth(),
             contentScale = ContentScale.Crop

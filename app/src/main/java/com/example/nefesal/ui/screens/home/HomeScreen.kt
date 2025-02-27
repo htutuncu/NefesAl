@@ -84,6 +84,7 @@ import java.time.format.DateTimeFormatter
 import java.util.Calendar
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.Surface
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 
@@ -95,13 +96,15 @@ fun HomeScreen(
 ) {
     var showDatePicker by remember { mutableStateOf(false) }
     val quitDate by viewModel.quitDate.collectAsState()
+    val isDarkMode by viewModel.isDarkMode.collectAsState()
 
-    Scaffold(
-        containerColor = MaterialTheme.colorScheme.surface
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.foggy),
+            painter = if (isDarkMode) painterResource(id = R.drawable.bg_dark) else painterResource(id = R.drawable.bg_light),
             contentDescription = "foggy",
             modifier = Modifier.fillMaxWidth(),
             contentScale = ContentScale.Crop
@@ -140,6 +143,13 @@ fun HomeScreen(
                         .fillMaxWidth()
                         .padding(vertical = 24.dp),
                     textAlign = TextAlign.Center
+                )
+
+                Image(
+                    painter = painterResource(id = R.drawable.smoke_free),
+                    contentDescription = "free",
+                    modifier = Modifier.fillMaxWidth(),
+                    contentScale = ContentScale.Crop
                 )
             }
 
