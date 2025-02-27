@@ -16,6 +16,9 @@
     <string name="day">Gün</string>
     <string name="hour">Saat</string>
     <string name="time_you_can_breathe">Nefes alabildiğiniz süre</string>
+
+    <!-- Kazanımlar -->
+    <string name="achievements">Kazanımlar</string>
     
     <!-- Navigasyon -->
     <string name="nav_home">Ana Sayfa</string>

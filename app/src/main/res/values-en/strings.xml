@@ -19,6 +19,9 @@
     <string name="welcome_message">Congratulations on deciding to quit smoking and choosing a healthy lifestyle.</string>
     <string name="choose_quit_time">Choose the quit date</string>
 
+    <!-- Achievements -->
+    <string name="achievements">Achievements</string>
+
     <!-- Navigation -->
     <string name="nav_home">Home</string>
     <string name="nav_achievements">Achievements</string>
