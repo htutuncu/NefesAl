@@ -1,6 +1,7 @@
 package com.example.nefesal.ui.screens.achievements
 
-import android.annotation.SuppressLint
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -24,16 +25,19 @@ import com.example.nefesal.ui.screens.home.HomeViewModel
 import com.example.nefesal.ui.theme.loraFamily
 import com.example.nefesal.util.localizedStringResource
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.LocalContext
@@ -41,9 +45,10 @@ import com.example.nefesal.data.AchievementItem
 import com.example.nefesal.ui.theme.Green50
 import com.example.nefesal.util.loadLocalizedSmokingBenefits
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
-import kotlin.random.Random
+import java.time.Duration
+import java.time.LocalDateTime
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun AchievementsScreen(
     homeViewModel: HomeViewModel = hiltViewModel()
@@ -52,9 +57,25 @@ fun AchievementsScreen(
     val context = LocalContext.current
     val benefitsArray = loadLocalizedSmokingBenefits(context)
 
-    val itemNewList = arrayListOf<AchievementItem>()
-    benefitsArray.forEachIndexed { index, item ->
-        itemNewList.add(AchievementItem(index, 95 + index, item.text))
+    val quitDate = homeViewModel.quitDate.collectAsState().value
+    val itemNewList = remember(quitDate) {
+        benefitsArray.mapIndexed { index, item ->
+            val progress = calculateProgress(quitDate, item.time)
+            AchievementItem(index, progress, item.text)
+        }
+    }
+
+    var updatedList by remember { mutableStateOf(itemNewList) }
+    val coroutineScope = rememberCoroutineScope()
+
+    LaunchedEffect(quitDate) {
+        while (true) {
+            delay(60000) // 1 dakika
+            updatedList = benefitsArray.mapIndexed { index, item ->
+                val progress = calculateProgress(quitDate, item.time)
+                AchievementItem(index, progress, item.text)
+            }
+        }
     }
 
     Surface(
@@ -86,27 +107,23 @@ fun AchievementsScreen(
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            ScrollableItemList(itemList = itemNewList)
+            ScrollableItemList(itemList = updatedList)
         }
     }
 }
 
-class ListItemState(item: AchievementItem) {
-    var item by mutableStateOf(item)
+@RequiresApi(Build.VERSION_CODES.O)
+fun calculateProgress(quitDate: LocalDateTime?, targetMinutes: Int): Int {
+    if (quitDate == null) return 0
+
+    val elapsedMinutes = Duration.between(quitDate, LocalDateTime.now()).toMinutes()
+    return ((elapsedMinutes.toDouble() / targetMinutes) * 100).coerceIn(0.0, 100.0).toInt()
 }
 
-fun updatePercentage(itemState: ListItemState) {
-    itemState.item = itemState.item.copy(percentage = Random.nextInt(0, 101))
-}
-
-@SuppressLint("CoroutineCreationDuringComposition")
 @Composable
 fun ScrollableItemList(itemList: List<AchievementItem>) {
-    val itemStates = itemList.map { remember { ListItemState(it) } }
-    val coroutineScope = rememberCoroutineScope()
-
     LazyColumn(modifier = Modifier) {
-        items(itemStates) { itemState ->
+        items(itemList) { item ->
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -122,16 +139,13 @@ fun ScrollableItemList(itemList: List<AchievementItem>) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Row(
-                        modifier = Modifier
-                            .padding(start = 10.dp)
+                        modifier = Modifier.padding(start = 10.dp)
                     ) {
-                        CircularProgressBar(
-                            percentage = itemState.item.percentage
-                        )
+                        CircularProgressBar(percentage = item.percentage)
                     }
 
                     Text(
-                        text = itemState.item.text,
+                        text = item.text,
                         fontSize = 16.sp,
                         modifier = Modifier.padding(start = 16.dp)
                     )
@@ -139,18 +153,11 @@ fun ScrollableItemList(itemList: List<AchievementItem>) {
             }
         }
     }
-
-    // Saatte bir yüzde değerlerini güncelle
-    rememberCoroutineScope().launch {
-        while (true) {
-            delay(60000) // 1 saat = 3600000 milisaniye
-            itemStates.forEach { updatePercentage(it) }
-        }
-    }
 }
 
 @Composable
 fun CircularProgressBar(percentage: Int) {
+    val colorTheme = MaterialTheme.colorScheme.primary
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier.size(50.dp)
@@ -158,7 +165,7 @@ fun CircularProgressBar(percentage: Int) {
         Canvas(modifier = Modifier.size(50.dp)) {
             val sweepAngle = (percentage / 100f) * 360f
             drawArc(
-                color = Green50,
+                color = colorTheme,
                 startAngle = -90f,
                 sweepAngle = sweepAngle,
                 useCenter = false,
