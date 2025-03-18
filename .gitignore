@@ -1,34 +1,48 @@
-# Android Studio ile ilgili dosyalar
 .idea/
-*.iml
+
+
+# Gradle files
 .gradle/
+build/
+# Android Studio cache
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/httpRequests/
+
+# Log files
+*.log
+
+# Proguard configuration files
+proguard-rules.pro
+
+
+*.iml
 local.properties
 
-# Derleme ve cache dosyaları
 /build/
 *.apk
 *.aab
 
-# Firebase google-services.json (Bu dosyayı kesinlikle pushlama)
 app/google-services.json
 app/src/**/google-services.json
 
-# Keystore dosyası (Play Store için imzalama anahtarını pushlamamalısın)
+
 *.keystore
 *.jks
 
-# NDK ve diğer sistem bağımlı dosyalar
 /cmake-build-debug/
 .externalNativeBuild/
 *.so
 *.o
-
-# Kullanıcı tarafından oluşturulmuş config dosyaları
-*.log
 *.map
 *.swp
 
-# Gradle properties (Kişisel bilgiler içerir!)
+
 *.properties
 
 
