@@ -47,5 +47,5 @@ app/src/**/google-services.json
 
 
 *.properties
-app/release/output.json
+app/release/
 
