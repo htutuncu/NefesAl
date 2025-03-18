@@ -2,6 +2,13 @@
 
 Nefes Al is an Android mobile application designed to help users quit smoking and track their progress. The app provides valuable insights into users' smoking cessation journey, including the time since quitting, money saved, and health improvements.
 
+## Technologies Used
+- Jetpack Compose
+- Kotlin Flow
+- MVVM
+- DataStore
+- Firebase Crashlytics
+
 ## Features
 
 ### Home Page
@@ -11,13 +18,13 @@ Nefes Al is an Android mobile application designed to help users quit smoking an
   - Money saved.
   - Time saved.
 
-![Home Page](screenshots/homePage.png)
+<img src="./screenshots/homePage.png" alt="Home Screen" width="300">
 
 ### Achievements
 - A section to track health status.
 - Users can monitor their health improvements over time.
 
-![Kazanımlar](screenshots/achievements.png)
+<img src="./screenshots/achievements.png" alt="Achievements Screen" width="300">
 
 ### Settings
 - Language selection.
@@ -25,7 +32,8 @@ Nefes Al is an Android mobile application designed to help users quit smoking an
 - Data reset option.
 - Privacy policy and terms of use.
 
-![Settings](screenshots/settings.png)
+<img src="./screenshots/settings.png" alt="Settings Screen" width="300">
+
 
 ## How to Use
 
@@ -34,7 +42,6 @@ Nefes Al is an Android mobile application designed to help users quit smoking an
 3. **Explore Achievements:** Check your health status and improvements.
 4. **Adjust Settings:** Change the language or toggle dark mode in the settings menu.
 
-![Usage Example](path/to/usage_example_image.png)
 
 ## License
 
