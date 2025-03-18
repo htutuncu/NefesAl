@@ -1,0 +1,3075 @@
+Marking id:hide_graphics_layer_in_inspector_tag:2131230768 reachable: referenced from base/dex/classes.dex
+Marking string:ok:2131558510 reachable: referenced from base/dex/classes.dex
+Marking string:terms_of_use:2131558533 reachable: referenced from base/dex/classes.dex
+Marking string:privacy_policy:2131558514 reachable: referenced from base/dex/classes.dex
+Marking string:reset:2131558519 reachable: referenced from base/dex/classes.dex
+Marking id:androidx_compose_ui_view_composition_context:2131230758 reachable: referenced from base/dex/classes.dex
+Marking id:compose_view_saveable_id_tag:2131230762 reachable: referenced from base/dex/classes.dex
+Marking string:default_popup_window_title:2131558423 reachable: referenced from base/dex/classes.dex
+Marking id:wrapped_composition_tag:2131230811 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_saved_state_registry_owner:2131230808 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_lifecycle_owner:2131230806 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_view_model_store_owner:2131230809 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_0:2131230721 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_1:2131230722 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_2:2131230733 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_3:2131230744 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_4:2131230747 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_5:2131230748 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_6:2131230749 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_7:2131230750 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_8:2131230751 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_9:2131230752 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_10:2131230723 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_11:2131230724 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_12:2131230725 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_13:2131230726 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_14:2131230727 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_15:2131230728 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_16:2131230729 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_17:2131230730 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_18:2131230731 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_19:2131230732 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_20:2131230734 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_21:2131230735 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_22:2131230736 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_23:2131230737 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_24:2131230738 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_25:2131230739 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_26:2131230740 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_27:2131230741 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_28:2131230742 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_29:2131230743 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_30:2131230745 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_31:2131230746 reachable: referenced from base/dex/classes.dex
+Marking string:indeterminate:2131558436 reachable: referenced from base/dex/classes.dex
+Marking string:state_off:2131558527 reachable: referenced from base/dex/classes.dex
+Marking string:state_on:2131558528 reachable: referenced from base/dex/classes.dex
+Marking string:selected:2131558522 reachable: referenced from base/dex/classes.dex
+Marking string:not_selected:2131558508 reachable: referenced from base/dex/classes.dex
+Marking string:template_percent:2131558532 reachable: referenced from base/dex/classes.dex
+Marking string:in_progress:2131558435 reachable: referenced from base/dex/classes.dex
+Marking string:state_empty:2131558526 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_drag_handle_description:2131558444 reachable: referenced from base/dex/classes.dex
+Marking drawable:ic_flag_en:2131165194 reachable: referenced from base/dex/classes.dex
+Marking drawable:ic_flag_tr:2131165195 reachable: referenced from base/dex/classes.dex
+Marking string:language:2131558437 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_scroll_to_earlier_years:2131558459 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_scroll_to_later_years:2131558460 reachable: referenced from base/dex/classes.dex
+Marking string:enter_smoking_stats:2131558426 reachable: referenced from base/dex/classes.dex
+Marking string:update_smoking_stats:2131558540 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute_suffix:2131558492 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_24h_suffix:2131558486 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_suffix:2131558488 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_today_description:2131558468 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_pane_title:2131558446 reachable: referenced from base/dex/classes.dex
+Marking string:common_google_play_services_unknown_issue:2131558418 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_pm:2131558495 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_am:2131558484 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131230807 reachable: referenced from base/dex/classes.dex
+Marking string:quit_date:2131558516 reachable: referenced from base/dex/classes.dex
+Marking attr:alpha:2130968577 reachable: referenced from base/dex/classes.dex
+Marking attr:lStar:2130968596 reachable: referenced from base/dex/classes.dex
+Marking drawable:bg_dark:2131165185 reachable: referenced from base/dex/classes.dex
+Marking drawable:bg_light:2131165186 reachable: referenced from base/dex/classes.dex
+Marking string:welcome_message:2131558542 reachable: referenced from base/dex/classes.dex
+Marking string:dark_mode:2131558420 reachable: referenced from base/dex/classes.dex
+Marking id:tag_unhandled_key_listeners:2131230800 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_period_toggle_description:2131558494 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_selection:2131558487 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute_selection:2131558491 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute_text_field:2131558493 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_text_field:2131558489 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour:2131558485 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute:2131558490 reachable: referenced from base/dex/classes.dex
+Marking array:com_google_android_gms_fonts_certs:2130903040 reachable: referenced from base/dex/classes.dex
+Marking string:language_turkish:2131558440 reachable: referenced from base/dex/classes.dex
+Marking string:language_english:2131558438 reachable: referenced from base/dex/classes.dex
+Marking string:achievements:2131558400 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_dialog:2131558478 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_year_picker_pane_title:2131558469 reachable: referenced from base/dex/classes.dex
+Marking string:year:2131558543 reachable: referenced from base/dex/classes.dex
+Marking string:month:2131558501 reachable: referenced from base/dex/classes.dex
+Marking string:day:2131558421 reachable: referenced from base/dex/classes.dex
+Marking string:hour:2131558434 reachable: referenced from base/dex/classes.dex
+Marking string:minutes:2131558498 reachable: referenced from base/dex/classes.dex
+Marking string:last_step:2131558441 reachable: referenced from base/dex/classes.dex
+Marking drawable:smoke_free:2131165211 reachable: referenced from base/dex/classes.dex
+Marking string:enter_statistics_to_go_on:2131558427 reachable: referenced from base/dex/classes.dex
+Marking string:time_format_days_hours:2131558534 reachable: referenced from base/dex/classes.dex
+Marking string:time_format_hours:2131558535 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_next_month:2131558464 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_previous_month:2131558465 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_calendar_mode:2131558461 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_input_mode:2131558463 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_collapse_description:2131558442 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_dismiss_description:2131558443 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_expand_description:2131558445 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_invalid_for_pattern:2131558449 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_invalid_year_range:2131558451 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_invalid_not_allowed:2131558450 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_label:2131558452 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_navigate_to_year_description:2131558457 reachable: referenced from base/dex/classes.dex
+Marking id:tag_unhandled_key_event_manager:2131230799 reachable: referenced from base/dex/classes.dex
+Marking id:tag_on_apply_window_listener:2131230793 reachable: referenced from base/dex/classes.dex
+Marking id:tag_window_insets_animation_callback:2131230801 reachable: referenced from base/dex/classes.dex
+Marking id:hide_in_inspector_tag:2131230770 reachable: referenced from base/dex/classes.dex
+Marking style:DialogWindowTheme:2131623936 reachable: referenced from base/dex/classes.dex
+Marking string:tab:2131558531 reachable: referenced from base/dex/classes.dex
+Marking string:switch_role:2131558530 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_day_selection:2131558462 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_year_selection:2131558466 reachable: referenced from base/dex/classes.dex
+Marking id:pooling_container_listener_holder_tag:2131230784 reachable: referenced from base/dex/classes.dex
+Marking string:cancel:2131558411 reachable: referenced from base/dex/classes.dex
+Marking string:save:2131558520 reachable: referenced from base/dex/classes.dex
+Marking string:dismiss:2131558424 reachable: referenced from base/dex/classes.dex
+Marking string:next:2131558506 reachable: referenced from base/dex/classes.dex
+Marking string:choose_quit_time:2131558412 reachable: referenced from base/dex/classes.dex
+Marking string:welcome:2131558541 reachable: referenced from base/dex/classes.dex
+Marking string:nav_home:2131558503 reachable: referenced from base/dex/classes.dex
+Marking string:nav_achievements:2131558502 reachable: referenced from base/dex/classes.dex
+Marking string:nav_settings:2131558504 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_no_selection_description:2131558458 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_no_input_description:2131558453 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_headline:2131558455 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_headline:2131558447 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_headline_description:2131558456 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_headline_description:2131558448 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_title:2131558467 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_title:2131558454 reachable: referenced from base/dex/classes.dex
+Marking string:default_error_message:2131558422 reachable: referenced from base/dex/classes.dex
+Marking id:tag_screen_reader_focusable:2131230796 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_heading:2131230791 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_pane_title:2131230792 reachable: referenced from base/dex/classes.dex
+Marking id:tag_state_description:2131230797 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_clickable_spans:2131230790 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_action_clickable_span:2131230720 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_actions:2131230789 reachable: referenced from base/dex/classes.dex
+Marking id:is_pooling_container_tag:2131230775 reachable: referenced from base/dex/classes.dex
+Marking id:consume_window_insets_tag:2131230763 reachable: referenced from base/dex/classes.dex
+Marking string:minutes_per_cigarette:2131558499 reachable: referenced from base/dex/classes.dex
+Marking string:price_per_pack:2131558513 reachable: referenced from base/dex/classes.dex
+Marking string:cigarettes_per_day:2131558414 reachable: referenced from base/dex/classes.dex
+Marking string:smoking_stats_title:2131558525 reachable: referenced from base/dex/classes.dex
+Marking id:inspection_slot_table_set:2131230774 reachable: referenced from base/dex/classes.dex
+Marking string:settings:2131558523 reachable: referenced from base/dex/classes.dex
+Marking string:time_you_can_breathe:2131558537 reachable: referenced from base/dex/classes.dex
+Marking string:cigarettes_not_smoked:2131558413 reachable: referenced from base/dex/classes.dex
+Marking string:money_saved:2131558500 reachable: referenced from base/dex/classes.dex
+Marking string:time_saved:2131558536 reachable: referenced from base/dex/classes.dex
+Marking string:yes:2131558544 reachable: referenced from base/dex/classes.dex
+Marking string:no:2131558507 reachable: referenced from base/dex/classes.dex
+Marking string:are_you_sure_reset:2131558403 reachable: referenced from base/dex/classes.dex
+Marking string:androidx_startup:2131558401 reachable: referenced from base/dex/classes.dex
+Marking id:report_drawn:2131230785 reachable: referenced from base/dex/classes.dex
+android.content.res.Resources#getIdentifier present: true
+Web content present: true
+Referenced Strings:
+attemptNumber
+MOBILE_IMS
+num_attempts
+callerContext
+onExit
+valueCase_
+​
+COLLECTION_ENABLED
+java.lang.Integer
+BackendRegistry
+cct
+com.google.firebase.crashlytics.build...
+TAKEN
+randomUUID
+layoutDirection
+preferences_pb
+com.google.firebase.common.prefs:
+$this$ModalBottomSheet
+Rgb565
+Compose:abandons
+frames
+java.lang.CharSequence
+STOP
+optional
+EmojiSupportMatch.All
+0
+textSelectionRange
+2
+ACTION_PRESS_AND_HOLD
+size
+left
+kotlinx.coroutines.DefaultExecutor
+Strategy.HighQuality
+role
+S_RESUMING_BY_RCV
+Selection
+emoji2.text.DefaultEmojiConfig
+androidx.compose.foundation.lazy.layo...
+H
+Prefix
+session_timeout_seconds
+gmp
+L
+result
+DeferredAnimation
+NumberPassword
+addFontWeightStyle
+constructor.parameterTypes
+EXTRA_BENCHMARK_OPERATION
+_
+a
+b
+Center
+address
+ACTION_CLEAR_ACCESSIBILITY_FOCUS
+Infinity
+Compose:unobserve
+logSource
+h
+i
+truncated
+j
+effectiveDirectAddress
+kotlin.String
+RESUMING_BY_EB
+userId
+OnClick
+r
+firebaseInstallations.id
+s
+event_id
+SUSPEND
+java.lang.Module
+TypefaceCompatApi26Impl
+x
+arch
+requestTimeMs
+ProgressBarRangeInfo
+reports
+Start
+POST
+PAYLOAD_TOO_BIG
+isTagEnabled
+payload
+Checkbox
+Multiply
+ACTION_SCROLL_FORWARD
+compose:lazy:prefetch:compose
+bufferEndSegment
+Filled.ArrowBack
+Expanded
+eventUptimeMs
+com.google.firebase.components.Compon...
+MAX_RETRIES_REACHED
+preferencesProto.preferencesMap
+list
+Rgb
+appNamespace
+indicatorRipple
+QUEUING
+com.crashlytics.settings.json
+Bottom
+End
+child
+androidx.view.accessibility.Accessibi...
+UNREGISTERED
+COMPLETING_WAITING_CHILDREN
+RESULT_BASELINE_PROFILE_NOT_FOUND
+_invoked
+locale
+fatal
+RESULT_DELETE_SKIP_FILE_SUCCESS
+onSecondaryAction
+WordBreak.None
+SDK_INT
+provider
+NaN
+kotlinx.coroutines.main.delay
+_delayed
+FIXED32_LIST_PACKED
+navigationBars
+jobscheduler
+onDismiss
+deqIdx
+kotlin.collections.List
+args
+authVersion
+FATAL_ERROR
+getNextValue
+splash
+ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE
+android.view.View$AttachInfo
+java.lang.Float
+Dispatchers.IO
+SHA1
+experimentIds
+osBuild
+com.agonlabs.nefesal.ui.LocaleViewModel
+fixups
+InactivePendingWork
+SharingStarted.Eagerly
+initialization_marker
+cores
+LookaheadLayingOut
+androidx.profileinstaller.action.SAVE...
+android.os.Build$VERSION
+LocalGraphicsContext
+executor
+tmp
+block
+fullPackage
+write
+StateDescription
+COMBINED
+toggleableState
+EmojiSupportMatch.Default
+$this$Button
+byte
+TextSubstitution
+Square
+Modulate
+onBackInvoked
+ClientCallbackMessenger
+deferred
+ACTION_SCROLL_IN_DIRECTION
+com.google.firebase.crashlytics.unity...
+maxTextLength
+TypefaceCompatApi24Impl
+Executor
+ACTION_PAGE_UP
+FloatAnimation
+backgroundExecutorService
+java.lang.String
+FirebaseApp
+productIdOrigin
+product
+HorizontalScrollAxisRange
+Unspecified
+Default
+AndroidEdgeEffectOverscrollEffect
+LookaheadMeasuring
+SESSION_START
+policyType
+deviceModel
+Lighten
+All
+New
+ARMV7S
+smoking_benefits.json
+pid
+MaxTextLength
+platforms
+android.widget.CheckBox
+firebase_sessions_enabled
+processName
+translateY
+translateX
+parameterKey
+android.view.accessibility.extra.DATA...
+Plus
+yMMMd
+void
+IWLAN
+firebase_data_collection_default_enabled
+firebaseApp.applicationContext
+statusBarStyle
+mStableInsets
+_cur
+globalMetrics
+compose:lazy:prefetch:nested
+StructuralEqualityPolicy
+BYTES_LIST
+_id
+kotlin.Throwable
+RequestFocus
+parkedWorkersStack
+Horizontal
+FisError
+displayCutout
+sendAccessibilitySemanticsStructureCh...
+NO_VALUE
+SFIXED64_LIST_PACKED
+kotlin.Annotation
+SkipSubtreeAndContinueTraversal
+WIMAX
+Invalid
+High
+Strictness.None
+BITMAP
+mandatorySystemGestures
+buildId
+newConfig
+defaultProcess
+Array
+intrface
+SessionFirelogPublisher
+yMMMM
+UNKNOWN
+/proc/self/fd/
+initialExtras
+DstOut
+transport_contexts
+fileName
+getByte
+endColor
+accessibility
+Bradford
+DEVICE_IDLE
+COLLECTION_UNKNOWN
+UINT32
+STOP_AND_RESET_REPLAY_CACHE
+onBackCancelled
+impl
+centerColor
+kotlinx.coroutines.scheduler.keep.ali...
+product_id
+state
+CompanionObject
+events
+element
+endMs
+ACTION_SCROLL_DOWN
+SelectionHandleInfo
+android.view.ViewRootImpl
+TextDecoration.
+input
+%s%s%s%s
+clsId
+copyMemory
+CollectionInfo
+Rtl
+android.hardware.type.automotive
+GetTextLayoutResult
+ToggleableState
+MOBILE_DUN
+backend:
+osVersion
+ComposeInternal
+liveRegion
+deviceManufacturer
+DstIn
+setRemoveOnCancelPolicy
+receive
+getParent
+AzSBpY4F0rHiHFdinTvM
+gradient
+Normal
+androidx.lifecycle.ViewModelProvider....
+runnable
+QUEUED
+watch
+rolloutId
+$this$composable
+ExpiresInSecs
+PaneTitle
+arrayIndexScale
+klass.interfaces
+Hint
+TERMS_OF_USE
+source
+SelectionStart
+android.intent.action.BATTERY_CHANGED
+Compose:Composer.dispose
+SYN_
+Compose
+Container
+java.lang.Short
+Search
+firebase_sessions_sessions_restart_ti...
+android.widget.Button
+Oklab
+_closeCause
+has
+androidx.view.accessibility.Accessibi...
+Eraser
+UINT32_LIST_PACKED
+CctTransportBackend
+androidx.datastore.preferences.protob...
+UINT64
+DIAGNOSTIC_PROFILE_IS_COMPRESSED
+HandlerCompat
+peekByte
+Medium
+Enter
+appBuildVersion
+INTERRUPTED_RCV
+MESSAGE_LIST
+font_variation_settings
+DpAnimation
+application_build
+_isTerminated
+libcore.io.Memory
+EmojiSupportMatch.None
+tint
+TextSelectionRange
+terms_of_use.html
+Stylus
+ramUsed
+sessionSamplingRate
+pss
+SEALED
+CREATED
+NO_OWNER
+ContentOrRtl
+SIGNED
+androidx.content.action.LOAD_EMOJI_FONT
+events_dropped_count
+Password
+androidClientInfo
+Fab
+19.4.1
+EXTRA_SKIP_FILE_OPERATION
+rotation
+captionBar
+pair
+BOOL_LIST
+Paragraph
+GCM
+endY
+endX
+BOOL
+Sentences
+short
+startY
+startX
+time
+MINUTES
+Strategy.Unspecified
+COMPLETING_RETRY
+OrBuilderList
+MOBILE_MMS
+android.widget.RadioButton
+android.widget.ImageView
+ACCESSIBILITY_CLICKABLE_SPAN_ID
+imeAction
+required
+ACTION_PAGE_LEFT
+modelClass.constructors
+pokeLong
+FAILED
+POISONED
+font_ttc_index
+UNKNOWN_MOBILE_SUBTYPE
+firebase_sessions_cache_duration
+options
+ACTION_SHOW_ON_SCREEN
+hardware
+identifier
+subscribers
+customActions
+PreEnter
+dates
+/system/xbin/su
+priority
+closeHandler
+dependencies
+CustomActions
+sampling_rate
+robolectric
+strokeLineJoin
+BUFFERED
+GET
+.apk
+CHANNEL_CLOSED
+SharingStarted.Lazily
+java.lang.Throwable
+/settings
+/data/misc/profiles/cur/0/
+map.entries
+startMs
+effectiveNodeIndex
+log
+authToken
+Outlined
+android.widget.SeekBar
+expires_at
+INITIALIZED
+producerIndex
+LineHeightStyle.Alignment.Bottom
+value.stringSet.stringsList
+ACTION_DRAG_START
+$this$navigate
+build_version
+FIXED32_LIST
+.immediate
+char
+None
+MOBILE
+Bevel
+uuid
+RESULT_INSTALL_SUCCESS
+Send
+Bytes
+%s/%s
+Input
+onClearFocusForOwner
+CollectionItemInfo
+BoundReached
+KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
+ALIGN_RIGHT
+Uploader
+CLOSE_HANDLER_INVOKED
+group
+java.lang.Cloneable
+Compose:deactivate
+causedBy
+Alpha8
+gcmSenderId
+com.crashlytics.RequireBuildId
+REASON_UNKNOWN
+onEnter
+targetUnit
+Unity
+applicationInfo
+.crashlytics.v3
+LocalImageVectorCache
+CLOSED
+firebase_sessions_restart_timeout
+values
+isContainer
+LocalFocusManager
+INT32_LIST_PACKED
+LineHeightStyle.Trim.None
+experiment_ids_clear_blob
+consumerIndex
+findViewByAccessibilityIdTraversal
+01110000
+com.google.android.gms.fonts
+_removedRef
+Idle
+HardLight
+SINT64_LIST_PACKED
+COLLECTION_DISABLED_REMOTE
+kotlin.String.Companion
+Fid
+LocalDensity
+process
+PRIVACY_POLICY
+next_request_ms
+ActiveParent
+ndkPayload
+ACTION_SHOW_TOOLTIP
+threads
+jClass
+value_
+addFontFromAssetManager
+DstOver
+sessionLifecycleServiceBinder
+mAttachInfo
+value.string
+19.0.0
+classes.dex
+installationUuid
+msg.replyTo
+Left
+/system/app/Superuser.apk
+HSUPA
+insertInorderBarrier
+kotlin.Cloneable
+qosTier
+path
+Decimal
+Button
+kotlin.reflect.jvm.internal.Reflectio...
+CutText
+COLLAPSED
+on_demand_backoff_base
+localToScreen
+DEFAULT_TEST_TAG
+cleanedAndPointers
+addObserver
+modelClass
+ClearTextSubstitution
+SFIXED32_LIST
+ON_ANY
+guava.concurrent.generate_cancellatio...
+FirebaseSessionsRepo
+SINT32
+route
+cancellation
+ON_PAUSE
+timezoneOffsetSeconds
+groupAnchor
+TraceCompat
+Link
+Recomposer:animation
+DatePickerDisplayModeAnimation
+getEmojiConsistencySet
+DROP_LATEST
+FIREBASE_CRASHLYTICS_REPORT
+_exceptionsHolder
+ExitTransition.KeepUntilTransitionsFi...
+collect_build_ids
+onBackInvokedDispatcher
+composition
+HSDPA
+$this$AnimatedVisibility
+embedded
+Decal
+RESULT_DESIRED_FORMAT_UNSUPPORTED
+Firebase
+tail
+rollouts
+currentView
+EnterTransition.None
+PERMIT
+android.os.SystemProperties
+Recomposer:recompose
+FirebaseSessions
+flutter_assets/NOTICES.Z
+gcm_defaultSenderId
+is_dark_mode
+missingDelimiterValue
+CancelTraversal
+listener
+AwaitContinuation
+Compose:onForgotten
+kotlin.Boolean
+Clickable
+_queue
+List
+ForcedSender
+signal
+com.google.firebase.crashlytics.build...
+parcel
+count
+.json
+graph
+Weight
+DISABLED
+Role
+currentCacheSizeBytes
+sessionDetails
+java.lang.annotation.Annotation
+font_weight
+AndroidOwner:onMeasure
+TERMINATED
+bitField0_
+importance
+session
+compositionLocalMap
+ACTION_SET_SELECTION
+isCtrlPressed
+$this$NavigationBar
+%.2f
+title
+androidx.view.accessibility.Accessibi...
+kotlin.collections.Map
+RecordingIC
+ProfileInstaller
+java.lang.Boolean
+selector
+$selectors
+Leading
+strings_
+GSM
+classSimpleName
+owner
+pathData
+IconCompat
+und
+home
+Filled
+trimPathStart
+nodes
+DEFAULT
+strokeMiterLimit
+DROP_OLDEST
+SetText
+updateDisplayListIfDirty
+lastScheduledTask
+viewportHeight
+SFIXED64_LIST
+InsertTextAtCursor
+tables
+navigation
+/installations/
+com.google.firebase.crashlytics.mappi...
+androidx.activity.result.contract.ext...
+androidx.view.accessibility.Accessibi...
+fingerprint
+action
+text
+Captured
+LocalFontFamilyResolver
+cookie
+SessionUpdateExtra
+ga_trackingId
+primary.prof
+sourceExtensionJsonProto3
+contents
+applicationContext
+getResId
+androidx.datastore.preferences.protob...
+arch_disk_io_
+status
+crash_marker
+LocalClipboardManager
+google_api_key
+ACTION_CLEAR_SELECTION
+TestTagsAsResourceId
+Right
+Off
+InvisibleToUser
+DpSize.Unspecified
+currentSession
+androidAppInfo
+file
+BYTE_STRING
+traversalIndex
+CancellableContinuation
+Final
+map
+databaseUrl
+$this$OutlinedButton
+max
+ACTION_PAGE_RIGHT
+appProcessDetails
+SaveableStateHolder_BackStackEntryKey
+menu
+price_per_pack
+getLong
+Italic
+focusManager
+NOT_SET
+ACTION_HIDE_TOOLTIP
+viewParent
+EmojiCompat.MetadataRepo.create
+RESUMED
+onClick
+instance
+handlerThread.looper
+KEY_COMPONENT_ACTIVITY_PENDING_RESULT
+Luminosity
+integer
+LineHeightStyle.Trim.FirstLineTop
+mVisibleInsets
+invalidateOwnerFocusState
+ContinueTraversal
+isEditable
+onBackStarted
+EDGE
+selected
+preferencesManager
+Accept
+sessionsSettings
+a:18.0.0
+separator
+null
+font_italic
+COLLECTION_SDK_NOT_INSTALLED
+background
+androidx.datastore.preferences.protob...
+true
+androidx.lifecycle.internal.SavedStat...
+NonCancellable
+sessionData
+Src
+ACTION_SCROLL_RIGHT
+CalendarModel
+GetScrollViewportLength
+peekLong
+sendersAndCloseStatus
+UINT32_LIST
+Clear
+asyncTraceEnd
+collect_anrs
+systemBarsIgnoringVisibility
+android.permission.ACCESS_NETWORK_STATE
+STARTED
+Inactive
+Round
+ETHERNET
+NeverEqualPolicy
+execution
+DONE_RCV
+event_payloads
+kotlin
+Error
+Trace
+androidx.core.view.inputmethod.Editor...
+androidx.datastore.preferences.protob...
+bytes
+collectionItemInfo
+Closed
+Completed
+callback
+RESUME_TOKEN
+TokenCreationEpochInSecs
+ACTION_PASTE
+android.graphics.FontFamily
+Vertical
+SINT32_LIST
+appQualitySessionId
+PUBLICATION
+sessionIndex
+apiKey
+argumentName
+navigationBarsIgnoringVisibility
+NEVER
+/cmdline
+Dialog:
+crash
+observer
+ComponentDiscovery
+1$
+Unknown
+java.lang.Long
+TRACE_TAG_APP
+imeAnimationSource
+_decision
+1:
+Butt
+input_method
+experiment_ids_encrypted_blob
+filename
+defaultCreationExtras
+PartiallyExpanded
+Expand
+setCurrentState
+ARM64
+libraryName
+PPC
+components
+0s
+kotlin.Function
+0x
+2:
+long
+LTE_CA
+min
+.com.google.firebase.crashlytics
+ACTION_PAGE_DOWN
+kotlinx.coroutines.channels.defaultBu...
+classes_to_restore
+isTraversalGroup
+diskUsed
+Exclusion
+getBoolean
+/installations
+free
+FIXED64_LIST
+SECONDS
+SQLiteEventStore
+eventCode
+quit_date
+sourceExtension
+yyyy
+STRING
+LocalFontLoader
+android.widget.EditText
+NO_DECISION
+agent
+contentDataType
+OnLongClick
+navigator
+ShuttingDown
+PasteText
+versionName
+FontFamily.Default
+androidx.profileinstaller.action.INST...
+nativeCanvas
+MOBILE_IA
+ON_START
+KEY_COMPONENT_ACTIVITY_LAUNCHED_KEYS
+COLLECTION_SAMPLED
+getAccessibilityViewId
+kotlinx.coroutines.io.parallelism
+RUNNING
+collection
+PersistedInstallation.
+WARNING
+BOOLEAN
+generatorType
+FIS_v2
+profileInstalled
+_next
+androidx.lifecycle.internal.SavedStat...
+customAttributes
+IsEditable
+PROXY
+innerPadding
+Compose:applyChanges
+ColorBurn
+Empty
+CrossProcessLock
+onBackPressedCallback
+on_demand_backoff_step_duration_seconds
+android.view.accessibility.extra.EXTR...
+UNRECOGNIZED
+pokeByte
+SetProgress
+registry
+EVENT_OVERRIDE
+debug.layout
+viewModelStoreOwner
+LocalResourceIdCache
+LOG_ENVIRONMENT_PROD
+java.lang.Object
+com.google.firebase.firebaseinitprovider
+Location
+dexopt/baseline.profm
+kotlinx.coroutines.bufferedChannel.se...
+Strictness.Normal
+prefix
+LiveRegion
+state1
+getViewRootImpl
+delimiter
+superclass
+permissions
+NONE
+application/json
+kotlinx.coroutines.semaphore.maxSpinC...
+ShutDown
+existing_instance_identifier
+IDEN
+onFetchFocusRect
+java.util.Set
+LegacyCalendarModel
+Suffix
+Switch
+M/y
+TopBar
+result_code
+WIFI
+UNMETERED_OR_DAILY
+firebase_sessions_sampling_rate
+DELETE_SKIP_FILE
+Heading
+androidx.compose.ui.semantics.id
+kotlin.collections.MutableMap
+signature
+createFromFamiliesWithDefault
+Clip
+savedStateRegistry
+NO_THREAD_ELEMENTS
+installation
+INTERRUPTED_SEND
+Visible
+velocityVector
+settings_version
+DOUBLE
+event
+batteryLevel
+firebase_sessions_cache_updated_time
+_availablePermits
+_settings
+PENDING
+MODEL
+androidx.profileinstaller.action.BENC...
+$this$Canvas
+updateSemanticsNodesCopyAndPanes
+Tab
+outState
+ACTION_SET_TEXT
+java.lang.Comparable
+DstAtop
+UnfocusedEmpty
+msg
+Done
+hostLifecycleState
+%010d
+Characters
+Cursor
+float
+reference
+SINT64
+java.lang.Enum
+progressBarRangeInfo
+TextField
+from
+variantId
+android.hardware.type.embedded
+offset
+onTouchEvent
+Strategy.Balanced
+sessionConfigs
+minutes_per_cigarette
+timestamp_ms
+StopInput
+kotlin.collections.MutableList
+COLLECTION_DISABLED
+Softlight
+DATA
+Content
+androidx.core.view.inputmethod.Editor...
+file_id
+INVALID_PAYLOAD
+putObject
+LTE
+requestUptimeMs
+binaries
+replacement
+Filled.Edit
+$onBackInvoked
+AndroidOwner:measureAndLayout
+ime
+androidx.datastore.preferences.protob...
+android.text.EmojiConsistency
+.font
+ACTION_CUT
+localRect
+Strictness.Unspecified
+prequest
+platform
+kotlin.Byte
+bufferEnd
+FirebaseSessions_HandlerThread
+SERVER_ERROR
+array
+sendEvent
+SelectableGroup
+postfix
+TRuntime.
+value
+TextMotion.Animated
+REUSABLE_CLAIMED
+0x%08x
+TestTag
+resources
+fontMetrics
+Filled.Settings
+int
+dataCollectionStatus
+performance
+IDLE
+eventTimeMs
+REGISTERED
+requestedPathSegments
+providers
+exception
+STRING_LIST
+effectiveNodeIndexOut
+FAST_IF_RADIO_AWAKE
+IsTraversalGroup
+String
+ExitTransition.None
+CROSSED
+Runtime
+$this$LazyColumn
+Compose:sideeffects
+GDT_CLIENT_METRICS
+clientType
+WordBreak.Unspecified
+androidx.view.accessibility.Accessibi...
+crashlytics.installation.id
+UNMETERED_ONLY
+VERY_LOW
+getUncaughtExceptionPreHandler
+VerbatimTts
+ram
+Status
+AndroidOwner:onTouch
+ranchu
+MOBILE_CBS
+_handled
+RELEASE
+version
+SetSelection
+onBackProgressed
+kotlin.jvm.functions.
+kotlinx.coroutines.scheduler.default....
+onMenuKeyEvent
+templateVersion
+sdkVersion
+Xor
+DEVICE_CHARGING
+VerticalScrollAxisRange
+com.crashlytics.android.build_id
+DAYS
+LayingOut
+fillColor
+MESSAGE
+ContentOrLtr
+WIFI_P2P
+LocalInputManager
+EmojiCompat.EmojiCompatInitializer.run
+mobileSubtype
+RESULT_PARSE_EXCEPTION
+ColorDodge
+Hyphens.None
+Compose:recompose
+androidx.lifecycle.viewmodel.internal...
+androidx.lifecycle.BundlableSavedStat...
+gmpAppId
+this$0
+displayVersion
+itemList
+AzSCki82AwsLzKd5O8zo
+Initial
+clientMetrics
+Startup
+acc
+Email
+androidx.profileinstaller.action.SKIP...
+storageMetrics
+Miter
+Gpu
+startColor
+cigarettes_per_day
+storageBucket
+SFIXED32_LIST_PACKED
+addSuppressed
+CSLCompat
+ACTION_SET_PROGRESS
+RESULT_OK
+com.google.android.gms.appid
+androidx.core.view.inputmethod.Editor...
+nextRequestWaitMillis
+userlog
+delegateFactory
+trimPathEnd
+RadioButton
+firebaseInstallationId
+TypefaceCompatUtil
+X86_32
+MATT_SAYS_HI
+stateDescription
+projectId
+BAD_CONFIG
+LifecycleServiceBinder
+strokeWidth
+textSubstitution
+kotlin.collections.MutableCollection
+ACTION_CLEAR_FOCUS
+Em
+getDouble
+ACTION_SCROLL_BACKWARD
+FIXED32
+WordBreak.Phrase
+.ae
+scope
+onMoveFocusInChildren
+strokeLineCap
+oldValue
+ACTION_SCROLL_UP
+BITMAP_MASKABLE
+Down
+checkForSemanticsChanges
+androidx.view.accessibility.Accessibi...
+MOBILE_EMERGENCY
+2.0.9
+UserInput
+label
+Info
+message
+ACTION_DRAG_DROP
+Mouse
+Offset.Unspecified
+Measuring
+AuthToken
+Previous
+START
+ImeAction
+PageDown
+ROOM
+centerY
+grantResults
+centerX
+UNDEFINED
+Go
+isShowingTextSubstitution
+PostExit
+ACTION_CONTEXT_CLICK
+SessionLifecycleClient
+dexopt/baseline.prof
+kotlinx.coroutines.internal.StackTrac...
+property
+Hidden
+androidx.view.accessibility.Accessibi...
+createSegment
+UINT64_LIST_PACKED
+/authTokens:generate
+_rootCause
+handle
+eventType
+androidx.compose.ui.input.pointer.Poi...
+CACHE_FULL
+datastore/
+putFloat
+Top
+payload_encoding
+com.agonlabs.nefesal.ui.screens.setti...
+insertIndex
+RESULT_NOT_WRITABLE
+.dp
+buildIdMappingForArch
+applicationId
+maxCacheSizeBytes
+MAP
+navigatorProvider
+.xml
+Snackbar
+Strictness.Loose
+RESULT_INSTALL_SKIP_FILE_SUCCESS
+other
+putDouble
+URI
+valueVector
+orgId
+manufacturer
+androidx$room$IMultiInstanceInvalidat...
+LocalViewConfiguration
+androidx.view.accessibility.Accessibi...
+Strategy.Simple
+.em
+kotlin.Long
+androidx.view.accessibility.Accessibi...
+Style
+Completing
+reasonCode
+ALIGN_LEFT
+Focused
+_resumed
+470fa2b4ae81cd56ecbcda9735803434cec591fa
+internalKeys
+logSourceMetrics
+gzip
+Text
+FIXED64
+Lab
+runningWorkers
+anchor
+x86
+Xyz
+DESTROYED
+LOG_ENVIRONMENT_STAGING
+UTC
+kotlin.collections.Collection
+paneTitle
+scaleX
+scaleY
+Filled.DateRange
+resolvedState
+_isCompleting
+Hyphens.Auto
+buffer
+.com.google.firebase.crashlytics.file...
+MM
+settings
+.com.google.firebase.crashlytics.file...
+uriPathSegments
+systemGestures
+read
+mcc_mnc
+MagnifierPositionInRoot
+LocalAutofillTree
+unit
+java.util.List
+FirebaseHeartBeat
+diskSpace
+imeAnimationTarget
+scrollAxisRange
+kotlin.Int
+sensor
+queryParam
+VOID
+google_storage_bucket
+FLOAT
+ctx.baseContext
+handleLifecycleEvent
+COMPLETING_ALREADY
+Indeterminate
+firebase_session_
+My
+java.lang.Iterable
+kotlinx.coroutines.DefaultExecutor.ke...
+x86_64
+Phone
+com.google.firebase.crashlytics
+21.0.0
+packageName
+OK
+Modifier
+Collapse
+arrayBaseOffset
+anr
+Keyboard
+P:
+getContentCaptureSessionCompat
+FIREBASE_APPQUALITY_SESSION
+0.0
+application
+context_id
+BLUETOOTH
+Main
+registerOnEndApplyChangesListener
+On
+reason
+LineHeightStyle.Alignment.Proportional
+achievements
+layoutResult
+AccessibilityNodeInfo.roleDescription
+android.widget.HorizontalScrollView
+receiveSegment
+emojiCompat
+GoogleApiHandler
+NO_CLOSE_CAUSE
+androidx.datastore.preferences.protob...
+androidx$room$IMultiInstanceInvalidat...
+Flutter
+backendName
+ERROR
+androidx.compose.ui.platform.AndroidC...
+app
+sequence_num
+newValue
+uptime_ms
+maxState
+on_demand_upload_rate_per_minute
+$dispatcher
+verticalScrollAxisRange
+targetVector
+_COROUTINE.
+REMOVE_FROZEN
+TaskStackBuilder
+.tmp
+peekInt
+S:
+00001111
+android.view.accessibility.extra.DATA...
+kotlinx.coroutines.semaphore.segmentSize
+androidx.savedstate.Restarter
+Repeated
+logSourceName
+DROP_SHADER_CACHE
+kotlin.collections.ListIterator
+GROUP
+rss
+putByte
+waterfall
+/proc/
+objectFieldOffset
+outBundle
+LocalSavedStateRegistryOwner
+timestamp
+ACTION_SELECT
+logRequest
+ARMV6
+viewportWidth
+ARMV7
+jailbroken
+blockingTasksInBuffer
+sessionId
+kotlin.Char
+ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
+Sp
+_decisionAndIndex
+SrcOver
+navigationIcon
+AUTH_ERROR
+java.util.ListIterator
+Label
+DefaultDispatcher
+android.view.accessibility.extra.EXTR...
+kotlin.Double
+lifecycle
+features
+view
+max_custom_exception_events
+appId
+sessionSdkVersion
+Disabled
+FirebaseCrashlytics
+testTag
+unreachable
+androidx.core.view.inputmethod.Editor...
+kotlinx.coroutines.CoroutineDispatcher
+UINT64_LIST
+finalException
+AccessibilityDelegate
+name
+Up
+rwd
+INCREMENTAL
+InstallationId
+getDescriptor
+distance
+string
+bool
+kotlin.coroutines.jvm.internal.BaseCo...
+android
+java.lang.module.ModuleDescriptor
+CHIME_ANDROID_SDK
+SrcIn
+Justify
+LineThrough
+androidx.view.accessibility.Accessibi...
+Picker
+networkType
+navigationBarStyle
+thisRef
+SUSPEND_NO_WAITER
+Dispatchers.Main
+TraversalIndex
+collectionInfo
+TREAT_AS_VIEW_TREE_APPEARING
+Cancelled
+getEmptyRegistry
+graphicsLayer
+HOURS
+crashlytics
+SettingsCache
+dataStore
+android.view.contentcapture.EventTime...
+window
+$this$TextButton
+Cancelling
+MainContent
+assignments
+tileMode
+_isCompleted
+.sp
+AutoMirrored.Filled.KeyboardArrowLeft
+MESSAGE_TOO_OLD
+EmptyCoroutineContext
+ACTION_ARGUMENT_SELECTION_END_INT
+connectivity
+SINT64_LIST
+X86_64
+SFIXED64
+item
+com.google.android.datatransport.events
+kotlinx.coroutines.scheduler.core.poo...
+kotlinx.coroutines.scheduler.max.pool...
+double
+baseAddress
+INSTANCE
+Darken
+event_metadata
+getLocalLifecycleOwner
+Low
+phone
+kotlin.Short
+Lora
+mRecreateDisplayList
+batteryVelocity
+android.software.leanback
+BOOL_LIST_PACKED
+Dispatchers.Unconfined
+traceFile
+tappableElementIgnoringVisibility
+direct
+ViewConfigCompat
+captionBarIgnoringVisibility
+pseudonymous_id
+Span
+kotlinx.coroutines.bufferedChannel.ex...
+android.hardware.type.watch
+mContentInsets
+resuming_sender
+ENUM_LIST
+java.util.Map$Entry
+18.0.0
+navGraphNavigator
+organization
+Clamp
+sendSegment
+StartInput
+_parentHandle
+SFIXED32
+refreshToken
+BYTES
+indicator
+kotlinx.coroutines.fast.service.loader
+ScrollToIndex
+EmojiCompatInitializer
+completedExpandBuffersAndPauseFlag
+kotlin.Any
+KEY_COMPONENT_ACTIVITY_REGISTERED_RCS
+coroutineContext
+backStackEntryId
+AnimatedVisibility
+2
+LocalLayoutDirection
+com.agonlabs.nefesal.ui.screens.home....
+_reusableCancellableContinuation
+android.view.View
+keyboardActions
+java.lang.Byte
+contentType
+android.view.accessibility.action.ARG...
+SessionLifecycleService
+UnfocusedNotEmpty
+putInt
+updateEnabledCallbacks
+AutoMirrored.Filled.KeyboardArrowRight
+FontFamily.SansSerif
+actionIcons
+_consensus
+CANCELLED
+DropdownList
+editableText
+effect
+CLOSED_EMPTY
+kotlin.collections.Iterator
+job
+SetTextSubstitution
+nextFunction
+unexpected
+preferencesMap
+systemBars
+NO_RECEIVE_RESULT
+generator
+PageRight
+Ltr
+Touch
+INT
+kotlin.Enum
+backEvent
+Trailing
+fillType
+sendSemanticsPropertyChangeEvents
+$this$navOptions
+Size.Unspecified
+NOT_GENERATED
+getDeclaredField
+ACTION_PREVIOUS_HTML_ELEMENT
+http://schemas.android.com/apk/res/an...
+invalidateNodes
+Ellipsis
+$this$DatePickerDialog
+androidx.lifecycle.savedstate.vm.tag
+WindowInsetsCompat
+INT32_LIST
+inline
+user
+IsPopup
+getModule
+fid
+gradientRadius
+logEventDropped
+firebase.installation.id
+android.widget.ProgressBar
+PERFORMANCE
+SessionsSettings
+rolloutsState
+compose:lazy:prefetch:measure
+popUpTo
+messageType
+sessions_enabled
+androidx.lifecycle.LifecycleDispatche...
+PerformImeAction
+getSuppressed
+DOUBLE_LIST_PACKED
+HSPA
+ACTION_UNKNOWN
+defaultLifecycleObserver
+SHOULD_BUFFER
+LineHeightStyle.Alignment.Center
+TD_SCDMA
+traceCounter
+kotlinx.coroutines.scheduler.resoluti...
+kotlin.Unit
+display_version
+kotlin.jvm.internal.StringCompanionOb...
+privacy_policy.html
+DpOffset.Unspecified
+ContentDescription
+ACTION_CLICK
+sdk
+view.resources
+$this$Card
+PageLeft
+icon
+parameterValue
+Selected
+projects/
+androidx.compose.text.SpanStyle
+completion
+androidx.view.accessibility.Accessibi...
+set
+ACTION_IME_ENTER
+Strictness.Strict
+session_id
+Dp.Unspecified
+getScaledScrollFactor
+ACTION_NEXT_AT_MOVEMENT_GRANULARITY
+android.support.PARENT_ACTIVITY
+serviceConnection
+dd
+overflowCount
+ReferentialEqualityPolicy
+INT64_LIST
+NavController
+language
+Difference
+applicationBuild
+currentProcessDetails
+ACTION_DRAG_CANCEL
+composable
+androidx.view.accessibility.Accessibi...
+Underline
+MOBILE_HIPRI
+autoMirrored
+generatefid.lock
+Failed
+preferences_
+Color
+FIXED
+en
+NonDisposableHandle
+JobInfoScheduler
+androidx.datastore.preferences.protob...
+ex
+RectangleShape
+ShowTextSubstitution
+endedAt
+Dismiss
+CRASHLYTICS
+ACTION_ACCESSIBILITY_FOCUS
+frame
+ACTION_LONG_CLICK
+measureAndLayout
+getFloat
+GPRS
+paramName
+putLong
+PPC64
+content
+firebaseAuthenticationToken
+Number
+VPN
+proximityOn
+LOG_ENVIRONMENT_AUTOPUSH
+json
+Hue
+false
+getDeclaredMethod
+rolloutVariant
+F16
+workerCtl
+PendingWork
+Middle
+originAssociatedProductId
+Ascii
+ScrollByOffset
+TREAT_AS_VIEW_TREE_APPEARED
+app_quality
+ACTION_MOVE_WINDOW
+android.support.text.emoji.emojiCompa...
+Image
+clipboard
+onRequestFocusForOwner
+output
+Filled.Info
+policies/2
+BottomBar
+androidx.compose.ui.input.nestedscrol...
+yMMMMEEEEd
+policies/1
+java.lang.Character
+context
+model
+id
+https
+%07x
+dispatcher
+Exit
+firebaseApp
+MILLISECONDS
+ENUM
+it
+LOG_ENVIRONMENT_UNKNOWN
+UNDECIDED
+firebaseApp.options.applicationId
+IndexForKey
+getInt
+log_source
+kotlin.jvm.internal.
+Cmyk
+Map
+hts/frbslgigp.ogepscmv/ieo/eaybtho
+Filled.Home
+extras
+Uri
+Url
+Authorization
+log_event_dropped
+privacyContext
+complianceData
+bundle
+GROUP_LIST
+kotlin.jvm.functions.Function
+android.widget.ScrollView
+subscriberName
+report
+/data/misc/profiles/ref/
+Locale
+auto
+android:text
+backStackEntry
+startedAt
+_size
+expiresIn
+RefreshToken
+argName
+TextFieldInputState
+strokeColor
+android.intent.action.USER_UNLOCKED
+Polite
+pokeInt
+kotlin.Number
+TOO_LATE_TO_CANCEL
+NULL
+Dst
+level
+ms
+.preferences_pb
+blockingExecutorService
+ARM_UNKNOWN
+CDMA
+EHRPD
+spi
+entry
+MOBILE_FOTA
+mccMnc
+PersistedInstallation
+focused
+androidx.datastore.preferences.protob...
+$this$NavHost
+heartbeats
+code
+ComplexColorCompat
+ns
+keys
+uiOrientation
+navController
+peekByteArray
+androidx.compose.ui.semantics.testTag
+addFontFromBuffer
+armeabi
+head
+dialog
+encryptedBlob
+receivers
+inParcel
+ACTION_SCROLL_LEFT
+backend_name
+kotlin.Comparable
+HIGHEST
+groupSlotIndex
+_data
+baseKey
+simulator
+os
+pokeByteArray
+DOUBLE_LIST
+COROUTINE_SUSPENDED
+android.widget.Spinner
+1.9.20
+resolvedCompositionContext
+pc
+_LifecycleAdapter
+LineHeightStyle.Alignment.Top
+ENABLED
+API
+sourceUnit
+com.google.firebase.components:
+TRANSIENT_ERROR
+EditableText
+metadata
+createAsync
+.Companion
+freeze
+java.util.Map
+/data/misc/profiles/cur/0
+Overlay
+TextDecoration.None
+RSA
+getObject
+ACTION_NEXT_HTML_ELEMENT
+appExitInfo
+insertReorderBarrier
+enqIdx
+invoker
+firebase_crashlytics_collection_enabled
+kotlin.Array
+tp:/rsltcrprsp.ogepscmv/ieo/eaybtho
+ACTION_COLLAPSE
+runningAppProcessInfo.processName
+node
+CONDITION_FALSE
+device
+HideKeyboard
+RESULT_CANCELED
+activity
+MICROSECONDS
+rw
+INT32
+fillAlpha
+ENUM_LIST_PACKED
+RTT
+eventsDroppedCount
+ACTION_SCROLL_TO_POSITION
+vector
+$this$$receiver
+key
+LONG
+RESOURCE
+animator_duration_scale
+kotlin.Enum.Companion
+profileinstaller_profileWrittenFor_la...
+aqs.
+ACTION_EXPAND
+window.decorView
+WRITE_SKIP_FILE
+kotlin.Float
+store
+EventGDTLogger
+Words
+compressed
+to
+v2
+_prev
+tr
+symbol
+country
+tv
+SINT32_LIST_PACKED
+horizontalScrollAxisRange
+IayckHiZRO1EFl1aGoK
+dest
+pairs
+project_id
+developmentPlatformVersion
+ReusedSlotId
+networkConnectionInfo
+MOBILE_SUPL
+putBoolean
+BROKEN
+us
+Hyphens.Unspecified
+Dispatchers.Default
+kotlinx.coroutines.flow.defaultConcur...
+java.util.Collection
+clientInfo
+HIDDEN
+CLOSE_HANDLER_CLOSED
+PreventUserInput
+failure
+NOT_IN_STACK
+viewModel
+Mirror
+com.google.firebase.crashlytics.build...
+removeObserver
+destination
+NANOSECONDS
+changes
+ON_DESTROY
+com.google.android.gms
+FLOAT_LIST
+abortCreation
+LocalContext
+RESULT_ALREADY_INSTALLED
+REGISTER_ERROR
+ATTEMPT_MIGRATION
+FontsProvider
+ContentValues
+INT64
+TextLayout:initLayout
+Saturation
+Dispatchers.Main.immediate
+threadName
+Compose:onRemembered
+statusBarsIgnoringVisibility
+REMOVED_TASK
+getInstance
+SessionsDependencies
+SrcOut
+ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
+INT64_LIST_PACKED
+collect_reports
+transport_name
+NETWORK_UNMETERED
+Index:
+logEnvironment
+type
+LocalView
+statusBars
+cache_duration
+Argb8888
+cont
+Finished
+IsShowingTextSubstitution
+buildVersion
+ACTION_ARGUMENT_MOVEMENT_GRANULARITY_INT
+EVDO_A
+EVDO_B
+CONSUMED
+ShowKeyboard
+ACTION_ARGUMENT_SELECTION_START_INT
+android.support.text.emoji.emojiCompa...
+logEvent
+ANDROID_FIREBASE
+UMTS
+FCM
+saveableStateHolderRef
+_state
+EVDO_0
+Next
+NOT_CROSSED
+ACTION_FOCUS
+SessionConfigFetcher
+java.lang.Double
+range
+ColorAnimation
+EVENT_TYPE_UNKNOWN
+eventTimestampUs
+firebaseApp.applicationContext.applic...
+get
+java.lang.Number
+smoking_benefits
+firstSessionId
+android.hardware.type.television
+MANUFACTURER
+DUMMY
+android.view.accessibility.extra.DATA...
+initializer
+token
+LocalTextToolbar
+elements
+strokeAlpha
+URI_MASKABLE
+SelectionEnd
+ON_CREATE
+IayrSTFL9eJ69YeSUO2
+argument
+androidx.graphics.path
+data
+ON_RESUME
+HSPAP
+firebase_database_url
+LocalConfiguration
+FirebaseInitProvider
+Filled.ArrowDropDown
+asyncTraceBegin
+IsDialog
+Geri
+LocalUriHandler
+crashed
+FIXED64_LIST_PACKED
+EmojiCompat.FontRequestEmojiCompatCon...
+SYNCHRONIZED
+PageUp
+LocalHapticFeedback
+TextMotion.Static
+kotlin.jvm.internal.EnumCompanionObject
+RESULT_UNSUPPORTED_ART_VERSION
+ACTION_COPY
+com.google.firebase.crash.FirebaseCrash
+controlState
+LineHeightStyle.Trim.Both
+Active
+android.widget.TextView
+kotlin.collections.Iterable
+Spacer
+proto
+onConfirm
+navDeepLink
+files
+INVALID_PAYLOD
+endVelocityVector
+send
+clearBlob
+google_app_id
+kotlin.collections.Map.Entry
+ScrollBy
+Screen
+developmentPlatform
+scale
+CopyText
+goldfish
+kotlin.collections.Set
+androidx.activity.result.contract.ext...
+factory
+orientation
+tappableElement
+LineHeightStyle.Trim.LastLineBottom
+java.util.Iterator
+focusProperties
+org.robolectric.Robolectric
+Supporting
+removeIndex
+ON_STOP
+Parcelizer
+kotlin.CharSequence
+RESULT_IO_EXCEPTION
+intent
+Filled.Star
+boolean
+migrations
+FLOAT_LIST_PACKED
+https://firebaseinstallations.googlea...
+SrcAtop
+trimPathOffset
+arguments
+Popup:
+LocalWindowInfo
+emit
+Marking id:blocking:2131230760 used because it matches string pool constant block
+Marking id:accessibility_action_clickable_span:2131230720 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_0:2131230721 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_1:2131230722 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_10:2131230723 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_11:2131230724 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_12:2131230725 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_13:2131230726 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_14:2131230727 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_15:2131230728 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_16:2131230729 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_17:2131230730 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_18:2131230731 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_19:2131230732 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_2:2131230733 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_20:2131230734 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_21:2131230735 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_22:2131230736 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_23:2131230737 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_24:2131230738 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_25:2131230739 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_26:2131230740 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_27:2131230741 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_28:2131230742 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_29:2131230743 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_3:2131230744 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_30:2131230745 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_31:2131230746 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_4:2131230747 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_5:2131230748 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_6:2131230749 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_7:2131230750 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_8:2131230751 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_9:2131230752 used because it matches string pool constant accessibility
+Marking string:state_empty:2131558526 used because it matches string pool constant state
+Marking string:state_off:2131558527 used because it matches string pool constant state
+Marking string:state_on:2131558528 used because it matches string pool constant state
+Marking string:terms_of_use:2131558533 used because it matches string pool constant terms_of_use.html
+Marking attr:shortcutMatchRequired:2130968610 used because it matches string pool constant short
+Marking id:time:2131230804 used because it matches string pool constant time
+Marking id:time:2131230804 used because it matches string pool constant time
+Marking string:time_format_days_hours:2131558534 used because it matches string pool constant time
+Marking string:time_format_hours:2131558535 used because it matches string pool constant time
+Marking string:time_saved:2131558536 used because it matches string pool constant time
+Marking string:time_you_can_breathe:2131558537 used because it matches string pool constant time
+Marking string:settings:2131558523 used because it matches string pool constant /settings
+Marking array:com_google_android_gms_fonts_certs:2130903040 used because it matches string pool constant com.google.android.gms.fonts
+Marking array:com_google_android_gms_fonts_certs_dev:2130903041 used because it matches string pool constant com.google.android.gms.fonts
+Marking array:com_google_android_gms_fonts_certs_prod:2130903042 used because it matches string pool constant com.google.android.gms.fonts
+Marking attr:route:2130968609 used because it matches string pool constant route
+Marking attr:route:2130968609 used because it matches string pool constant route
+Marking string:gcm_defaultSenderId:2131558429 used because it matches string pool constant gcm_defaultSenderId
+Marking string:gcm_defaultSenderId:2131558429 used because it matches string pool constant gcm_defaultSenderId
+Marking attr:graph:2130968595 used because it matches string pool constant graph
+Marking attr:graph:2130968595 used because it matches string pool constant graph
+Marking id:title:2131230805 used because it matches string pool constant title
+Marking id:title:2131230805 used because it matches string pool constant title
+Marking string:navigation_menu:2131558505 used because it matches string pool constant navigation
+Marking string:com_google_firebase_crashlytics_mapping_file_id:2131558417 used because it matches string pool constant com.google.firebase.crashlytics.mapping_file_id
+Marking attr:action:2130968576 used because it matches string pool constant action
+Marking attr:action:2130968576 used because it matches string pool constant action
+Marking id:action_container:2131230753 used because it matches string pool constant action
+Marking id:action_divider:2131230754 used because it matches string pool constant action
+Marking id:action_image:2131230755 used because it matches string pool constant action
+Marking id:action_text:2131230756 used because it matches string pool constant action
+Marking id:actions:2131230757 used because it matches string pool constant action
+Marking id:text:2131230802 used because it matches string pool constant text
+Marking id:text:2131230802 used because it matches string pool constant text
+Marking id:text2:2131230803 used because it matches string pool constant text
+Marking integer:status_bar_notification_info_maxnum:2131296257 used because it matches string pool constant status
+Marking string:status_bar_notification_info_overflow:2131558529 used because it matches string pool constant status
+Marking string:google_api_key:2131558430 used because it matches string pool constant google_api_key
+Marking string:google_api_key:2131558430 used because it matches string pool constant google_api_key
+Marking string:price_per_pack:2131558513 used because it matches string pool constant price_per_pack
+Marking string:price_per_pack:2131558513 used because it matches string pool constant price_per_pack
+Marking string:selected:2131558522 used because it matches string pool constant selected
+Marking string:selected:2131558522 used because it matches string pool constant selected
+Marking attr:nullable:2130968601 used because it matches string pool constant null
+Marking string:minutes:2131558498 used because it matches string pool constant min
+Marking string:minutes_per_cigarette:2131558499 used because it matches string pool constant min
+Marking string:quit_date:2131558516 used because it matches string pool constant quit_date
+Marking string:quit_date:2131558516 used because it matches string pool constant quit_date
+Marking string:minutes_per_cigarette:2131558499 used because it matches string pool constant minutes_per_cigarette
+Marking string:minutes_per_cigarette:2131558499 used because it matches string pool constant minutes_per_cigarette
+Marking layout:ime_base_split_test_activity:2131361793 used because it matches string pool constant ime
+Marking layout:ime_secondary_split_test_activity:2131361794 used because it matches string pool constant ime
+Marking id:accessibility_action_clickable_span:2131230720 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_0:2131230721 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_1:2131230722 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_10:2131230723 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_11:2131230724 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_12:2131230725 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_13:2131230726 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_14:2131230727 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_15:2131230728 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_16:2131230729 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_17:2131230730 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_18:2131230731 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_19:2131230732 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_2:2131230733 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_20:2131230734 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_21:2131230735 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_22:2131230736 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_23:2131230737 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_24:2131230738 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_25:2131230739 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_26:2131230740 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_27:2131230741 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_28:2131230742 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_29:2131230743 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_3:2131230744 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_30:2131230745 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_31:2131230746 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_4:2131230747 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_5:2131230748 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_6:2131230749 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_7:2131230750 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_8:2131230751 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_9:2131230752 used because it matches string pool constant acc
+Marking string:cigarettes_per_day:2131558414 used because it matches string pool constant cigarettes_per_day
+Marking string:cigarettes_per_day:2131558414 used because it matches string pool constant cigarettes_per_day
+Marking style:TextAppearance_Compat_Notification:2131623939 used because it matches string pool constant Text
+Marking style:TextAppearance_Compat_Notification_Info:2131623940 used because it matches string pool constant Text
+Marking style:TextAppearance_Compat_Notification_Line2:2131623941 used because it matches string pool constant Text
+Marking style:TextAppearance_Compat_Notification_Time:2131623942 used because it matches string pool constant Text
+Marking style:TextAppearance_Compat_Notification_Title:2131623943 used because it matches string pool constant Text
+Marking string:settings:2131558523 used because it matches string pool constant settings
+Marking string:settings:2131558523 used because it matches string pool constant settings
+Marking string:google_storage_bucket:2131558433 used because it matches string pool constant google_storage_bucket
+Marking string:google_storage_bucket:2131558433 used because it matches string pool constant google_storage_bucket
+Marking string:com_google_firebase_crashlytics_mapping_file_id:2131558417 used because it matches string pool constant com.google.firebase.crashlytics
+Marking string:achievements:2131558400 used because it matches string pool constant achievements
+Marking string:achievements:2131558400 used because it matches string pool constant achievements
+Marking string:app_name:2131558402 used because it matches string pool constant app
+Marking id:view_tree_lifecycle_owner:2131230806 used because it matches string pool constant view
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131230807 used because it matches string pool constant view
+Marking id:view_tree_saved_state_registry_owner:2131230808 used because it matches string pool constant view
+Marking id:view_tree_view_model_store_owner:2131230809 used because it matches string pool constant view
+Marking color:androidx_core_ripple_material_light:2131034112 used because it matches string pool constant android
+Marking color:androidx_core_secondary_text_default_material_light:2131034113 used because it matches string pool constant android
+Marking id:androidx_compose_ui_view_composition_context:2131230758 used because it matches string pool constant android
+Marking string:androidx_startup:2131558401 used because it matches string pool constant android
+Marking attr:popUpTo:2130968604 used because it matches string pool constant popUpTo
+Marking attr:popUpTo:2130968604 used because it matches string pool constant popUpTo
+Marking attr:popUpToInclusive:2130968605 used because it matches string pool constant popUpTo
+Marking attr:popUpToSaveState:2130968606 used because it matches string pool constant popUpTo
+Marking string:privacy_policy:2131558514 used because it matches string pool constant privacy_policy.html
+Marking id:icon:2131230771 used because it matches string pool constant icon
+Marking id:icon:2131230771 used because it matches string pool constant icon
+Marking id:icon_group:2131230772 used because it matches string pool constant icon
+Marking string:settings:2131558523 used because it matches string pool constant set
+Marking string:language:2131558437 used because it matches string pool constant language
+Marking string:language:2131558437 used because it matches string pool constant language
+Marking string:language_english:2131558438 used because it matches string pool constant language
+Marking string:language_system:2131558439 used because it matches string pool constant language
+Marking string:language_turkish:2131558440 used because it matches string pool constant language
+Marking attr:enterAnim:2130968582 used because it matches string pool constant en
+Marking string:enter_smoking_stats:2131558426 used because it matches string pool constant en
+Marking string:enter_statistics_to_go_on:2131558427 used because it matches string pool constant en
+Marking attr:exitAnim:2130968583 used because it matches string pool constant ex
+Marking id:italic:2131230776 used because it matches string pool constant it
+Marking id:report_drawn:2131230785 used because it matches string pool constant report
+Marking id:dialog_button:2131230764 used because it matches string pool constant dialog
+Marking color:vector_tint_color:2131034124 used because it matches string pool constant vector
+Marking color:vector_tint_theme_color:2131034125 used because it matches string pool constant vector
+Marking string:tooltip_description:2131558538 used because it matches string pool constant to
+Marking string:tooltip_label:2131558539 used because it matches string pool constant to
+Marking attr:destination:2130968581 used because it matches string pool constant dest
+Marking string:project_id:2131558515 used because it matches string pool constant project_id
+Marking string:project_id:2131558515 used because it matches string pool constant project_id
+Marking attr:destination:2130968581 used because it matches string pool constant destination
+Marking attr:destination:2130968581 used because it matches string pool constant destination
+Marking array:com_google_android_gms_fonts_certs:2130903040 used because it matches string pool constant com.google.android.gms
+Marking array:com_google_android_gms_fonts_certs_dev:2130903041 used because it matches string pool constant com.google.android.gms
+Marking array:com_google_android_gms_fonts_certs_prod:2130903042 used because it matches string pool constant com.google.android.gms
+Marking string:range_end:2131558517 used because it matches string pool constant range
+Marking string:range_start:2131558518 used because it matches string pool constant range
+Marking attr:data:2130968579 used because it matches string pool constant data
+Marking attr:data:2130968579 used because it matches string pool constant data
+Marking attr:dataPattern:2130968580 used because it matches string pool constant data
+Marking xml:data_extraction_rules:2131755009 used because it matches string pool constant data
+Marking string:google_app_id:2131558431 used because it matches string pool constant google_app_id
+Marking string:google_app_id:2131558431 used because it matches string pool constant google_app_id
+@com.agonlabs.nefesal:anim/fragment_fast_out_extra_slow_in : reachable=false
+@com.agonlabs.nefesal:animator/fragment_close_enter : reachable=false
+    @com.agonlabs.nefesal:anim/fragment_fast_out_extra_slow_in
+@com.agonlabs.nefesal:animator/fragment_close_exit : reachable=false
+    @com.agonlabs.nefesal:anim/fragment_fast_out_extra_slow_in
+@com.agonlabs.nefesal:animator/fragment_fade_enter : reachable=false
+@com.agonlabs.nefesal:animator/fragment_fade_exit : reachable=false
+@com.agonlabs.nefesal:animator/fragment_open_enter : reachable=false
+    @com.agonlabs.nefesal:anim/fragment_fast_out_extra_slow_in
+@com.agonlabs.nefesal:animator/fragment_open_exit : reachable=false
+    @com.agonlabs.nefesal:anim/fragment_fast_out_extra_slow_in
+@com.agonlabs.nefesal:array/com_google_android_gms_fonts_certs : reachable=true
+    @com.agonlabs.nefesal:array/com_google_android_gms_fonts_certs_dev
+    @com.agonlabs.nefesal:array/com_google_android_gms_fonts_certs_prod
+@com.agonlabs.nefesal:array/com_google_android_gms_fonts_certs_dev : reachable=true
+@com.agonlabs.nefesal:array/com_google_android_gms_fonts_certs_prod : reachable=true
+@com.agonlabs.nefesal:attr/action : reachable=true
+@com.agonlabs.nefesal:attr/alpha : reachable=true
+@com.agonlabs.nefesal:attr/argType : reachable=false
+@com.agonlabs.nefesal:attr/data : reachable=true
+@com.agonlabs.nefesal:attr/dataPattern : reachable=true
+@com.agonlabs.nefesal:attr/destination : reachable=true
+@com.agonlabs.nefesal:attr/enterAnim : reachable=true
+@com.agonlabs.nefesal:attr/exitAnim : reachable=true
+@com.agonlabs.nefesal:attr/font : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderAuthority : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderCerts : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderFetchStrategy : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderFetchTimeout : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderPackage : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderQuery : reachable=false
+@com.agonlabs.nefesal:attr/fontProviderSystemFontFamily : reachable=false
+@com.agonlabs.nefesal:attr/fontStyle : reachable=false
+@com.agonlabs.nefesal:attr/fontVariationSettings : reachable=false
+@com.agonlabs.nefesal:attr/fontWeight : reachable=false
+@com.agonlabs.nefesal:attr/graph : reachable=true
+@com.agonlabs.nefesal:attr/lStar : reachable=true
+@com.agonlabs.nefesal:attr/launchSingleTop : reachable=false
+@com.agonlabs.nefesal:attr/mimeType : reachable=false
+@com.agonlabs.nefesal:attr/navGraph : reachable=false
+@com.agonlabs.nefesal:attr/nestedScrollViewStyle : reachable=false
+@com.agonlabs.nefesal:attr/nullable : reachable=true
+@com.agonlabs.nefesal:attr/popEnterAnim : reachable=false
+@com.agonlabs.nefesal:attr/popExitAnim : reachable=false
+@com.agonlabs.nefesal:attr/popUpTo : reachable=true
+@com.agonlabs.nefesal:attr/popUpToInclusive : reachable=true
+@com.agonlabs.nefesal:attr/popUpToSaveState : reachable=true
+@com.agonlabs.nefesal:attr/queryPatterns : reachable=false
+@com.agonlabs.nefesal:attr/restoreState : reachable=false
+@com.agonlabs.nefesal:attr/route : reachable=true
+@com.agonlabs.nefesal:attr/shortcutMatchRequired : reachable=true
+@com.agonlabs.nefesal:attr/startDestination : reachable=false
+@com.agonlabs.nefesal:attr/targetPackage : reachable=false
+@com.agonlabs.nefesal:attr/ttcIndex : reachable=false
+@com.agonlabs.nefesal:attr/uri : reachable=false
+@com.agonlabs.nefesal:color/androidx_core_ripple_material_light : reachable=true
+@com.agonlabs.nefesal:color/androidx_core_secondary_text_default_material_light : reachable=true
+@com.agonlabs.nefesal:color/black : reachable=false
+@com.agonlabs.nefesal:color/call_notification_answer_color : reachable=false
+@com.agonlabs.nefesal:color/call_notification_decline_color : reachable=false
+@com.agonlabs.nefesal:color/notification_action_color_filter : reachable=false
+    @com.agonlabs.nefesal:color/androidx_core_secondary_text_default_material_light
+@com.agonlabs.nefesal:color/notification_icon_bg_color : reachable=false
+@com.agonlabs.nefesal:color/purple_200 : reachable=false
+@com.agonlabs.nefesal:color/purple_500 : reachable=false
+@com.agonlabs.nefesal:color/purple_700 : reachable=false
+@com.agonlabs.nefesal:color/teal_200 : reachable=false
+@com.agonlabs.nefesal:color/teal_700 : reachable=false
+@com.agonlabs.nefesal:color/vector_tint_color : reachable=true
+@com.agonlabs.nefesal:color/vector_tint_theme_color : reachable=true
+@com.agonlabs.nefesal:color/white : reachable=false
+@com.agonlabs.nefesal:dimen/compat_button_inset_horizontal_material : reachable=false
+@com.agonlabs.nefesal:dimen/compat_button_inset_vertical_material : reachable=false
+@com.agonlabs.nefesal:dimen/compat_button_padding_horizontal_material : reachable=false
+@com.agonlabs.nefesal:dimen/compat_button_padding_vertical_material : reachable=false
+@com.agonlabs.nefesal:dimen/compat_control_corner_material : reachable=false
+@com.agonlabs.nefesal:dimen/compat_notification_large_icon_max_height : reachable=false
+@com.agonlabs.nefesal:dimen/compat_notification_large_icon_max_width : reachable=false
+@com.agonlabs.nefesal:dimen/notification_action_icon_size : reachable=false
+@com.agonlabs.nefesal:dimen/notification_action_text_size : reachable=false
+@com.agonlabs.nefesal:dimen/notification_big_circle_margin : reachable=false
+@com.agonlabs.nefesal:dimen/notification_content_margin_start : reachable=false
+@com.agonlabs.nefesal:dimen/notification_large_icon_height : reachable=false
+@com.agonlabs.nefesal:dimen/notification_large_icon_width : reachable=false
+@com.agonlabs.nefesal:dimen/notification_main_column_padding_top : reachable=false
+@com.agonlabs.nefesal:dimen/notification_media_narrow_margin : reachable=false
+@com.agonlabs.nefesal:dimen/notification_right_icon_size : reachable=false
+@com.agonlabs.nefesal:dimen/notification_right_side_padding_top : reachable=false
+@com.agonlabs.nefesal:dimen/notification_small_icon_background_padding : reachable=false
+@com.agonlabs.nefesal:dimen/notification_small_icon_size_as_large : reachable=false
+@com.agonlabs.nefesal:dimen/notification_subtext_size : reachable=false
+@com.agonlabs.nefesal:dimen/notification_top_pad : reachable=false
+@com.agonlabs.nefesal:dimen/notification_top_pad_large_text : reachable=false
+@com.agonlabs.nefesal:drawable/$ic_launcher_foreground__0 : reachable=false
+@com.agonlabs.nefesal:drawable/bg_dark : reachable=true
+@com.agonlabs.nefesal:drawable/bg_light : reachable=true
+@com.agonlabs.nefesal:drawable/foggy : reachable=false
+@com.agonlabs.nefesal:drawable/ic_call_answer : reachable=false
+@com.agonlabs.nefesal:drawable/ic_call_answer_low : reachable=false
+@com.agonlabs.nefesal:drawable/ic_call_answer_video : reachable=false
+@com.agonlabs.nefesal:drawable/ic_call_answer_video_low : reachable=false
+@com.agonlabs.nefesal:drawable/ic_call_decline : reachable=false
+@com.agonlabs.nefesal:drawable/ic_call_decline_low : reachable=false
+@com.agonlabs.nefesal:drawable/ic_flag_en : reachable=true
+@com.agonlabs.nefesal:drawable/ic_flag_tr : reachable=true
+@com.agonlabs.nefesal:drawable/ic_launcher_background : reachable=false
+@com.agonlabs.nefesal:drawable/ic_launcher_foreground : reachable=false
+    @com.agonlabs.nefesal:drawable/$ic_launcher_foreground__0
+@com.agonlabs.nefesal:drawable/notification_action_background : reachable=false
+    @com.agonlabs.nefesal:color/androidx_core_ripple_material_light
+    @com.agonlabs.nefesal:dimen/compat_button_inset_horizontal_material
+    @com.agonlabs.nefesal:dimen/compat_button_inset_vertical_material
+    @com.agonlabs.nefesal:dimen/compat_control_corner_material
+    @com.agonlabs.nefesal:dimen/compat_button_padding_vertical_material
+    @com.agonlabs.nefesal:dimen/compat_button_padding_horizontal_material
+@com.agonlabs.nefesal:drawable/notification_bg : reachable=false
+    @com.agonlabs.nefesal:drawable/notification_bg_normal_pressed
+    @com.agonlabs.nefesal:drawable/notification_bg_normal
+@com.agonlabs.nefesal:drawable/notification_bg_low : reachable=false
+    @com.agonlabs.nefesal:drawable/notification_bg_low_pressed
+    @com.agonlabs.nefesal:drawable/notification_bg_low_normal
+@com.agonlabs.nefesal:drawable/notification_bg_low_normal : reachable=false
+@com.agonlabs.nefesal:drawable/notification_bg_low_pressed : reachable=false
+@com.agonlabs.nefesal:drawable/notification_bg_normal : reachable=false
+@com.agonlabs.nefesal:drawable/notification_bg_normal_pressed : reachable=false
+@com.agonlabs.nefesal:drawable/notification_icon_background : reachable=false
+    @com.agonlabs.nefesal:color/notification_icon_bg_color
+@com.agonlabs.nefesal:drawable/notification_oversize_large_icon_bg : reachable=false
+@com.agonlabs.nefesal:drawable/notification_template_icon_bg : reachable=false
+@com.agonlabs.nefesal:drawable/notification_template_icon_low_bg : reachable=false
+@com.agonlabs.nefesal:drawable/notification_tile_bg : reachable=false
+    @com.agonlabs.nefesal:drawable/notify_panel_notification_icon_bg
+@com.agonlabs.nefesal:drawable/notify_panel_notification_icon_bg : reachable=false
+@com.agonlabs.nefesal:drawable/smoke_free : reachable=true
+@com.agonlabs.nefesal:id/accessibility_action_clickable_span : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_0 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_1 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_10 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_11 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_12 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_13 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_14 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_15 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_16 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_17 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_18 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_19 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_2 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_20 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_21 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_22 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_23 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_24 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_25 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_26 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_27 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_28 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_29 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_3 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_30 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_31 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_4 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_5 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_6 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_7 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_8 : reachable=true
+@com.agonlabs.nefesal:id/accessibility_custom_action_9 : reachable=true
+@com.agonlabs.nefesal:id/action_container : reachable=true
+@com.agonlabs.nefesal:id/action_divider : reachable=true
+@com.agonlabs.nefesal:id/action_image : reachable=true
+@com.agonlabs.nefesal:id/action_text : reachable=true
+@com.agonlabs.nefesal:id/actions : reachable=true
+@com.agonlabs.nefesal:id/androidx_compose_ui_view_composition_context : reachable=true
+@com.agonlabs.nefesal:id/async : reachable=false
+@com.agonlabs.nefesal:id/blocking : reachable=true
+@com.agonlabs.nefesal:id/chronometer : reachable=false
+@com.agonlabs.nefesal:id/compose_view_saveable_id_tag : reachable=true
+@com.agonlabs.nefesal:id/consume_window_insets_tag : reachable=true
+@com.agonlabs.nefesal:id/dialog_button : reachable=true
+@com.agonlabs.nefesal:id/edit_text_id : reachable=false
+@com.agonlabs.nefesal:id/forever : reachable=false
+@com.agonlabs.nefesal:id/fragment_container_view_tag : reachable=false
+@com.agonlabs.nefesal:id/hide_graphics_layer_in_inspector_tag : reachable=true
+@com.agonlabs.nefesal:id/hide_ime_id : reachable=false
+@com.agonlabs.nefesal:id/hide_in_inspector_tag : reachable=true
+@com.agonlabs.nefesal:id/icon : reachable=true
+@com.agonlabs.nefesal:id/icon_group : reachable=true
+@com.agonlabs.nefesal:id/info : reachable=false
+@com.agonlabs.nefesal:id/inspection_slot_table_set : reachable=true
+@com.agonlabs.nefesal:id/is_pooling_container_tag : reachable=true
+@com.agonlabs.nefesal:id/italic : reachable=true
+@com.agonlabs.nefesal:id/line1 : reachable=false
+@com.agonlabs.nefesal:id/line3 : reachable=false
+@com.agonlabs.nefesal:id/nav_controller_view_tag : reachable=false
+@com.agonlabs.nefesal:id/normal : reachable=false
+@com.agonlabs.nefesal:id/notification_background : reachable=false
+@com.agonlabs.nefesal:id/notification_main_column : reachable=false
+@com.agonlabs.nefesal:id/notification_main_column_container : reachable=false
+@com.agonlabs.nefesal:id/pooling_container_listener_holder_tag : reachable=true
+@com.agonlabs.nefesal:id/report_drawn : reachable=true
+@com.agonlabs.nefesal:id/right_icon : reachable=false
+@com.agonlabs.nefesal:id/right_side : reachable=false
+@com.agonlabs.nefesal:id/special_effects_controller_view_tag : reachable=false
+@com.agonlabs.nefesal:id/tag_accessibility_actions : reachable=true
+@com.agonlabs.nefesal:id/tag_accessibility_clickable_spans : reachable=true
+@com.agonlabs.nefesal:id/tag_accessibility_heading : reachable=true
+@com.agonlabs.nefesal:id/tag_accessibility_pane_title : reachable=true
+@com.agonlabs.nefesal:id/tag_on_apply_window_listener : reachable=true
+@com.agonlabs.nefesal:id/tag_on_receive_content_listener : reachable=false
+@com.agonlabs.nefesal:id/tag_on_receive_content_mime_types : reachable=false
+@com.agonlabs.nefesal:id/tag_screen_reader_focusable : reachable=true
+@com.agonlabs.nefesal:id/tag_state_description : reachable=true
+@com.agonlabs.nefesal:id/tag_transition_group : reachable=false
+@com.agonlabs.nefesal:id/tag_unhandled_key_event_manager : reachable=true
+@com.agonlabs.nefesal:id/tag_unhandled_key_listeners : reachable=true
+@com.agonlabs.nefesal:id/tag_window_insets_animation_callback : reachable=true
+@com.agonlabs.nefesal:id/text : reachable=true
+@com.agonlabs.nefesal:id/text2 : reachable=true
+@com.agonlabs.nefesal:id/time : reachable=true
+@com.agonlabs.nefesal:id/title : reachable=true
+@com.agonlabs.nefesal:id/view_tree_lifecycle_owner : reachable=true
+@com.agonlabs.nefesal:id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
+@com.agonlabs.nefesal:id/view_tree_saved_state_registry_owner : reachable=true
+@com.agonlabs.nefesal:id/view_tree_view_model_store_owner : reachable=true
+@com.agonlabs.nefesal:id/visible_removing_fragment_view_tag : reachable=false
+@com.agonlabs.nefesal:id/wrapped_composition_tag : reachable=true
+@com.agonlabs.nefesal:integer/google_play_services_version : reachable=true
+@com.agonlabs.nefesal:integer/status_bar_notification_info_maxnum : reachable=true
+@com.agonlabs.nefesal:layout/custom_dialog : reachable=false
+@com.agonlabs.nefesal:layout/ime_base_split_test_activity : reachable=true
+@com.agonlabs.nefesal:layout/ime_secondary_split_test_activity : reachable=true
+@com.agonlabs.nefesal:layout/notification_action : reachable=false
+    @com.agonlabs.nefesal:style/Widget_Compat_NotificationActionContainer
+    @com.agonlabs.nefesal:dimen/notification_action_icon_size
+    @com.agonlabs.nefesal:style/Widget_Compat_NotificationActionText
+@com.agonlabs.nefesal:layout/notification_action_tombstone : reachable=false
+    @com.agonlabs.nefesal:style/Widget_Compat_NotificationActionContainer
+    @com.agonlabs.nefesal:dimen/notification_action_icon_size
+    @com.agonlabs.nefesal:style/Widget_Compat_NotificationActionText
+@com.agonlabs.nefesal:layout/notification_template_custom_big : reachable=false
+    @com.agonlabs.nefesal:layout/notification_template_icon_group
+    @com.agonlabs.nefesal:dimen/notification_large_icon_width
+    @com.agonlabs.nefesal:dimen/notification_large_icon_height
+    @com.agonlabs.nefesal:dimen/notification_right_side_padding_top
+    @com.agonlabs.nefesal:layout/notification_template_part_time
+    @com.agonlabs.nefesal:layout/notification_template_part_chronometer
+    @com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Info
+@com.agonlabs.nefesal:layout/notification_template_icon_group : reachable=false
+    @com.agonlabs.nefesal:dimen/notification_large_icon_width
+    @com.agonlabs.nefesal:dimen/notification_large_icon_height
+    @com.agonlabs.nefesal:dimen/notification_big_circle_margin
+    @com.agonlabs.nefesal:dimen/notification_right_icon_size
+@com.agonlabs.nefesal:layout/notification_template_part_chronometer : reachable=false
+    @com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Time
+@com.agonlabs.nefesal:layout/notification_template_part_time : reachable=false
+    @com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Time
+@com.agonlabs.nefesal:mipmap/ic_launcher : reachable=true
+    @com.agonlabs.nefesal:drawable/ic_launcher_background
+    @com.agonlabs.nefesal:mipmap/ic_launcher_foreground
+@com.agonlabs.nefesal:mipmap/ic_launcher_foreground : reachable=false
+@com.agonlabs.nefesal:mipmap/ic_launcher_round : reachable=true
+    @com.agonlabs.nefesal:drawable/ic_launcher_background
+    @com.agonlabs.nefesal:mipmap/ic_launcher_foreground
+@com.agonlabs.nefesal:raw/firebase_common_keep : reachable=false
+@com.agonlabs.nefesal:raw/firebase_crashlytics_keep : reachable=false
+@com.agonlabs.nefesal:string/achievements : reachable=true
+@com.agonlabs.nefesal:string/androidx_startup : reachable=true
+@com.agonlabs.nefesal:string/app_name : reachable=true
+@com.agonlabs.nefesal:string/are_you_sure_reset : reachable=true
+@com.agonlabs.nefesal:string/call_notification_answer_action : reachable=false
+@com.agonlabs.nefesal:string/call_notification_answer_video_action : reachable=false
+@com.agonlabs.nefesal:string/call_notification_decline_action : reachable=false
+@com.agonlabs.nefesal:string/call_notification_hang_up_action : reachable=false
+@com.agonlabs.nefesal:string/call_notification_incoming_text : reachable=false
+@com.agonlabs.nefesal:string/call_notification_ongoing_text : reachable=false
+@com.agonlabs.nefesal:string/call_notification_screening_text : reachable=false
+@com.agonlabs.nefesal:string/cancel : reachable=true
+@com.agonlabs.nefesal:string/choose_quit_time : reachable=true
+@com.agonlabs.nefesal:string/cigarettes_not_smoked : reachable=true
+@com.agonlabs.nefesal:string/cigarettes_per_day : reachable=true
+@com.agonlabs.nefesal:string/close_drawer : reachable=false
+@com.agonlabs.nefesal:string/close_sheet : reachable=false
+@com.agonlabs.nefesal:string/com_google_firebase_crashlytics_mapping_file_id : reachable=true
+@com.agonlabs.nefesal:string/common_google_play_services_unknown_issue : reachable=true
+@com.agonlabs.nefesal:string/congratulations_message : reachable=false
+@com.agonlabs.nefesal:string/dark_mode : reachable=true
+@com.agonlabs.nefesal:string/day : reachable=true
+@com.agonlabs.nefesal:string/default_error_message : reachable=true
+@com.agonlabs.nefesal:string/default_popup_window_title : reachable=true
+@com.agonlabs.nefesal:string/dismiss : reachable=true
+@com.agonlabs.nefesal:string/dropdown_menu : reachable=false
+@com.agonlabs.nefesal:string/enter_smoking_stats : reachable=true
+@com.agonlabs.nefesal:string/enter_statistics_to_go_on : reachable=true
+@com.agonlabs.nefesal:string/future_date_error : reachable=false
+@com.agonlabs.nefesal:string/gcm_defaultSenderId : reachable=true
+@com.agonlabs.nefesal:string/google_api_key : reachable=true
+@com.agonlabs.nefesal:string/google_app_id : reachable=true
+@com.agonlabs.nefesal:string/google_crash_reporting_api_key : reachable=false
+@com.agonlabs.nefesal:string/google_storage_bucket : reachable=true
+@com.agonlabs.nefesal:string/hour : reachable=true
+@com.agonlabs.nefesal:string/in_progress : reachable=true
+@com.agonlabs.nefesal:string/indeterminate : reachable=true
+@com.agonlabs.nefesal:string/language : reachable=true
+@com.agonlabs.nefesal:string/language_english : reachable=true
+@com.agonlabs.nefesal:string/language_system : reachable=true
+@com.agonlabs.nefesal:string/language_turkish : reachable=true
+@com.agonlabs.nefesal:string/last_step : reachable=true
+@com.agonlabs.nefesal:string/m3c_bottom_sheet_collapse_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_bottom_sheet_dismiss_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_bottom_sheet_drag_handle_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_bottom_sheet_expand_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_bottom_sheet_pane_title : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_headline : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_headline_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_invalid_for_pattern : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_invalid_not_allowed : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_invalid_year_range : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_label : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_no_input_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_input_title : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_headline : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_headline_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_navigate_to_year_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_no_selection_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_scroll_to_earlier_years : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_scroll_to_later_years : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_switch_to_calendar_mode : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_switch_to_day_selection : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_switch_to_input_mode : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_switch_to_next_month : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_switch_to_previous_month : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_switch_to_year_selection : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_title : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_today_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_picker_year_picker_pane_title : reachable=true
+@com.agonlabs.nefesal:string/m3c_date_range_input_invalid_range_input : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_input_title : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_picker_day_in_range : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_picker_end_headline : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_picker_scroll_to_next_month : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_picker_scroll_to_previous_month : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_picker_start_headline : reachable=false
+@com.agonlabs.nefesal:string/m3c_date_range_picker_title : reachable=false
+@com.agonlabs.nefesal:string/m3c_dialog : reachable=true
+@com.agonlabs.nefesal:string/m3c_dropdown_menu_collapsed : reachable=false
+@com.agonlabs.nefesal:string/m3c_dropdown_menu_expanded : reachable=false
+@com.agonlabs.nefesal:string/m3c_search_bar_search : reachable=false
+@com.agonlabs.nefesal:string/m3c_snackbar_dismiss : reachable=false
+@com.agonlabs.nefesal:string/m3c_suggestions_available : reachable=false
+@com.agonlabs.nefesal:string/m3c_time_picker_am : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_hour : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_hour_24h_suffix : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_hour_selection : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_hour_suffix : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_hour_text_field : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_minute : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_minute_selection : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_minute_suffix : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_minute_text_field : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_period_toggle_description : reachable=true
+@com.agonlabs.nefesal:string/m3c_time_picker_pm : reachable=true
+@com.agonlabs.nefesal:string/m3c_tooltip_long_press_label : reachable=false
+@com.agonlabs.nefesal:string/m3c_tooltip_pane_description : reachable=false
+@com.agonlabs.nefesal:string/minutes : reachable=true
+@com.agonlabs.nefesal:string/minutes_per_cigarette : reachable=true
+@com.agonlabs.nefesal:string/money_saved : reachable=true
+@com.agonlabs.nefesal:string/month : reachable=true
+@com.agonlabs.nefesal:string/nav_achievements : reachable=true
+@com.agonlabs.nefesal:string/nav_home : reachable=true
+@com.agonlabs.nefesal:string/nav_settings : reachable=true
+@com.agonlabs.nefesal:string/navigation_menu : reachable=true
+@com.agonlabs.nefesal:string/next : reachable=true
+@com.agonlabs.nefesal:string/no : reachable=true
+@com.agonlabs.nefesal:string/not_selected : reachable=true
+@com.agonlabs.nefesal:string/off : reachable=false
+@com.agonlabs.nefesal:string/ok : reachable=true
+@com.agonlabs.nefesal:string/on : reachable=false
+@com.agonlabs.nefesal:string/price_per_cigarette : reachable=false
+@com.agonlabs.nefesal:string/price_per_pack : reachable=true
+@com.agonlabs.nefesal:string/privacy_policy : reachable=true
+@com.agonlabs.nefesal:string/project_id : reachable=true
+@com.agonlabs.nefesal:string/quit_date : reachable=true
+@com.agonlabs.nefesal:string/range_end : reachable=true
+@com.agonlabs.nefesal:string/range_start : reachable=true
+@com.agonlabs.nefesal:string/reset : reachable=true
+@com.agonlabs.nefesal:string/save : reachable=true
+@com.agonlabs.nefesal:string/select_quit_date : reachable=false
+@com.agonlabs.nefesal:string/selected : reachable=true
+@com.agonlabs.nefesal:string/settings : reachable=true
+@com.agonlabs.nefesal:string/smoke_free_time : reachable=false
+@com.agonlabs.nefesal:string/smoking_stats_title : reachable=true
+@com.agonlabs.nefesal:string/state_empty : reachable=true
+@com.agonlabs.nefesal:string/state_off : reachable=true
+@com.agonlabs.nefesal:string/state_on : reachable=true
+@com.agonlabs.nefesal:string/status_bar_notification_info_overflow : reachable=true
+@com.agonlabs.nefesal:string/switch_role : reachable=true
+@com.agonlabs.nefesal:string/tab : reachable=true
+@com.agonlabs.nefesal:string/template_percent : reachable=true
+@com.agonlabs.nefesal:string/terms_of_use : reachable=true
+@com.agonlabs.nefesal:string/time_format_days_hours : reachable=true
+@com.agonlabs.nefesal:string/time_format_hours : reachable=true
+@com.agonlabs.nefesal:string/time_saved : reachable=true
+@com.agonlabs.nefesal:string/time_you_can_breathe : reachable=true
+@com.agonlabs.nefesal:string/tooltip_description : reachable=true
+@com.agonlabs.nefesal:string/tooltip_label : reachable=true
+@com.agonlabs.nefesal:string/update_smoking_stats : reachable=true
+@com.agonlabs.nefesal:string/welcome : reachable=true
+@com.agonlabs.nefesal:string/welcome_message : reachable=true
+@com.agonlabs.nefesal:string/year : reachable=true
+@com.agonlabs.nefesal:string/yes : reachable=true
+@com.agonlabs.nefesal:style/DialogWindowTheme : reachable=true
+@com.agonlabs.nefesal:style/FloatingDialogTheme : reachable=false
+@com.agonlabs.nefesal:style/FloatingDialogWindowTheme : reachable=false
+    @com.agonlabs.nefesal:style/FloatingDialogTheme
+@com.agonlabs.nefesal:style/TextAppearance_Compat_Notification : reachable=true
+@com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Info : reachable=true
+@com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Line2 : reachable=true
+    @com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Info
+@com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Time : reachable=true
+@com.agonlabs.nefesal:style/TextAppearance_Compat_Notification_Title : reachable=true
+@com.agonlabs.nefesal:style/Theme_NefesAl : reachable=true
+@com.agonlabs.nefesal:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @com.agonlabs.nefesal:drawable/notification_action_background
+@com.agonlabs.nefesal:style/Widget_Compat_NotificationActionText : reachable=false
+    @com.agonlabs.nefesal:color/androidx_core_secondary_text_default_material_light
+    @com.agonlabs.nefesal:dimen/notification_action_text_size
+@com.agonlabs.nefesal:xml/backup_rules : reachable=true
+@com.agonlabs.nefesal:xml/data_extraction_rules : reachable=true
+
+The root reachable resources are:
+ array:com_google_android_gms_fonts_certs:2130903040
+ array:com_google_android_gms_fonts_certs_dev:2130903041
+ array:com_google_android_gms_fonts_certs_prod:2130903042
+ attr:action:2130968576
+ attr:alpha:2130968577
+ attr:data:2130968579
+ attr:dataPattern:2130968580
+ attr:destination:2130968581
+ attr:enterAnim:2130968582
+ attr:exitAnim:2130968583
+ attr:graph:2130968595
+ attr:lStar:2130968596
+ attr:nullable:2130968601
+ attr:popUpTo:2130968604
+ attr:popUpToInclusive:2130968605
+ attr:popUpToSaveState:2130968606
+ attr:route:2130968609
+ attr:shortcutMatchRequired:2130968610
+ color:androidx_core_ripple_material_light:2131034112
+ color:androidx_core_secondary_text_default_material_light:2131034113
+ color:vector_tint_color:2131034124
+ color:vector_tint_theme_color:2131034125
+ drawable:bg_dark:2131165185
+ drawable:bg_light:2131165186
+ drawable:ic_flag_en:2131165194
+ drawable:ic_flag_tr:2131165195
+ drawable:smoke_free:2131165211
+ id:accessibility_action_clickable_span:2131230720
+ id:accessibility_custom_action_0:2131230721
+ id:accessibility_custom_action_1:2131230722
+ id:accessibility_custom_action_10:2131230723
+ id:accessibility_custom_action_11:2131230724
+ id:accessibility_custom_action_12:2131230725
+ id:accessibility_custom_action_13:2131230726
+ id:accessibility_custom_action_14:2131230727
+ id:accessibility_custom_action_15:2131230728
+ id:accessibility_custom_action_16:2131230729
+ id:accessibility_custom_action_17:2131230730
+ id:accessibility_custom_action_18:2131230731
+ id:accessibility_custom_action_19:2131230732
+ id:accessibility_custom_action_2:2131230733
+ id:accessibility_custom_action_20:2131230734
+ id:accessibility_custom_action_21:2131230735
+ id:accessibility_custom_action_22:2131230736
+ id:accessibility_custom_action_23:2131230737
+ id:accessibility_custom_action_24:2131230738
+ id:accessibility_custom_action_25:2131230739
+ id:accessibility_custom_action_26:2131230740
+ id:accessibility_custom_action_27:2131230741
+ id:accessibility_custom_action_28:2131230742
+ id:accessibility_custom_action_29:2131230743
+ id:accessibility_custom_action_3:2131230744
+ id:accessibility_custom_action_30:2131230745
+ id:accessibility_custom_action_31:2131230746
+ id:accessibility_custom_action_4:2131230747
+ id:accessibility_custom_action_5:2131230748
+ id:accessibility_custom_action_6:2131230749
+ id:accessibility_custom_action_7:2131230750
+ id:accessibility_custom_action_8:2131230751
+ id:accessibility_custom_action_9:2131230752
+ id:action_container:2131230753
+ id:action_divider:2131230754
+ id:action_image:2131230755
+ id:action_text:2131230756
+ id:actions:2131230757
+ id:androidx_compose_ui_view_composition_context:2131230758
+ id:blocking:2131230760
+ id:compose_view_saveable_id_tag:2131230762
+ id:consume_window_insets_tag:2131230763
+ id:dialog_button:2131230764
+ id:hide_graphics_layer_in_inspector_tag:2131230768
+ id:hide_in_inspector_tag:2131230770
+ id:icon:2131230771
+ id:icon_group:2131230772
+ id:inspection_slot_table_set:2131230774
+ id:is_pooling_container_tag:2131230775
+ id:italic:2131230776
+ id:pooling_container_listener_holder_tag:2131230784
+ id:report_drawn:2131230785
+ id:tag_accessibility_actions:2131230789
+ id:tag_accessibility_clickable_spans:2131230790
+ id:tag_accessibility_heading:2131230791
+ id:tag_accessibility_pane_title:2131230792
+ id:tag_on_apply_window_listener:2131230793
+ id:tag_screen_reader_focusable:2131230796
+ id:tag_state_description:2131230797
+ id:tag_unhandled_key_event_manager:2131230799
+ id:tag_unhandled_key_listeners:2131230800
+ id:tag_window_insets_animation_callback:2131230801
+ id:text:2131230802
+ id:text2:2131230803
+ id:time:2131230804
+ id:title:2131230805
+ id:view_tree_lifecycle_owner:2131230806
+ id:view_tree_on_back_pressed_dispatcher_owner:2131230807
+ id:view_tree_saved_state_registry_owner:2131230808
+ id:view_tree_view_model_store_owner:2131230809
+ id:wrapped_composition_tag:2131230811
+ integer:google_play_services_version:2131296256
+ integer:status_bar_notification_info_maxnum:2131296257
+ layout:ime_base_split_test_activity:2131361793
+ layout:ime_secondary_split_test_activity:2131361794
+ mipmap:ic_launcher:2131427328
+ mipmap:ic_launcher_round:2131427330
+ string:achievements:2131558400
+ string:androidx_startup:2131558401
+ string:app_name:2131558402
+ string:are_you_sure_reset:2131558403
+ string:cancel:2131558411
+ string:choose_quit_time:2131558412
+ string:cigarettes_not_smoked:2131558413
+ string:cigarettes_per_day:2131558414
+ string:com_google_firebase_crashlytics_mapping_file_id:2131558417
+ string:common_google_play_services_unknown_issue:2131558418
+ string:dark_mode:2131558420
+ string:day:2131558421
+ string:default_error_message:2131558422
+ string:default_popup_window_title:2131558423
+ string:dismiss:2131558424
+ string:enter_smoking_stats:2131558426
+ string:enter_statistics_to_go_on:2131558427
+ string:gcm_defaultSenderId:2131558429
+ string:google_api_key:2131558430
+ string:google_app_id:2131558431
+ string:google_storage_bucket:2131558433
+ string:hour:2131558434
+ string:in_progress:2131558435
+ string:indeterminate:2131558436
+ string:language:2131558437
+ string:language_english:2131558438
+ string:language_system:2131558439
+ string:language_turkish:2131558440
+ string:last_step:2131558441
+ string:m3c_bottom_sheet_collapse_description:2131558442
+ string:m3c_bottom_sheet_dismiss_description:2131558443
+ string:m3c_bottom_sheet_drag_handle_description:2131558444
+ string:m3c_bottom_sheet_expand_description:2131558445
+ string:m3c_bottom_sheet_pane_title:2131558446
+ string:m3c_date_input_headline:2131558447
+ string:m3c_date_input_headline_description:2131558448
+ string:m3c_date_input_invalid_for_pattern:2131558449
+ string:m3c_date_input_invalid_not_allowed:2131558450
+ string:m3c_date_input_invalid_year_range:2131558451
+ string:m3c_date_input_label:2131558452
+ string:m3c_date_input_no_input_description:2131558453
+ string:m3c_date_input_title:2131558454
+ string:m3c_date_picker_headline:2131558455
+ string:m3c_date_picker_headline_description:2131558456
+ string:m3c_date_picker_navigate_to_year_description:2131558457
+ string:m3c_date_picker_no_selection_description:2131558458
+ string:m3c_date_picker_scroll_to_earlier_years:2131558459
+ string:m3c_date_picker_scroll_to_later_years:2131558460
+ string:m3c_date_picker_switch_to_calendar_mode:2131558461
+ string:m3c_date_picker_switch_to_day_selection:2131558462
+ string:m3c_date_picker_switch_to_input_mode:2131558463
+ string:m3c_date_picker_switch_to_next_month:2131558464
+ string:m3c_date_picker_switch_to_previous_month:2131558465
+ string:m3c_date_picker_switch_to_year_selection:2131558466
+ string:m3c_date_picker_title:2131558467
+ string:m3c_date_picker_today_description:2131558468
+ string:m3c_date_picker_year_picker_pane_title:2131558469
+ string:m3c_dialog:2131558478
+ string:m3c_time_picker_am:2131558484
+ string:m3c_time_picker_hour:2131558485
+ string:m3c_time_picker_hour_24h_suffix:2131558486
+ string:m3c_time_picker_hour_selection:2131558487
+ string:m3c_time_picker_hour_suffix:2131558488
+ string:m3c_time_picker_hour_text_field:2131558489
+ string:m3c_time_picker_minute:2131558490
+ string:m3c_time_picker_minute_selection:2131558491
+ string:m3c_time_picker_minute_suffix:2131558492
+ string:m3c_time_picker_minute_text_field:2131558493
+ string:m3c_time_picker_period_toggle_description:2131558494
+ string:m3c_time_picker_pm:2131558495
+ string:minutes:2131558498
+ string:minutes_per_cigarette:2131558499
+ string:money_saved:2131558500
+ string:month:2131558501
+ string:nav_achievements:2131558502
+ string:nav_home:2131558503
+ string:nav_settings:2131558504
+ string:navigation_menu:2131558505
+ string:next:2131558506
+ string:no:2131558507
+ string:not_selected:2131558508
+ string:ok:2131558510
+ string:price_per_pack:2131558513
+ string:privacy_policy:2131558514
+ string:project_id:2131558515
+ string:quit_date:2131558516
+ string:range_end:2131558517
+ string:range_start:2131558518
+ string:reset:2131558519
+ string:save:2131558520
+ string:selected:2131558522
+ string:settings:2131558523
+ string:smoking_stats_title:2131558525
+ string:state_empty:2131558526
+ string:state_off:2131558527
+ string:state_on:2131558528
+ string:status_bar_notification_info_overflow:2131558529
+ string:switch_role:2131558530
+ string:tab:2131558531
+ string:template_percent:2131558532
+ string:terms_of_use:2131558533
+ string:time_format_days_hours:2131558534
+ string:time_format_hours:2131558535
+ string:time_saved:2131558536
+ string:time_you_can_breathe:2131558537
+ string:tooltip_description:2131558538
+ string:tooltip_label:2131558539
+ string:update_smoking_stats:2131558540
+ string:welcome:2131558541
+ string:welcome_message:2131558542
+ string:year:2131558543
+ string:yes:2131558544
+ style:DialogWindowTheme:2131623936
+ style:TextAppearance_Compat_Notification:2131623939
+ style:TextAppearance_Compat_Notification_Info:2131623940
+ style:TextAppearance_Compat_Notification_Line2:2131623941
+ style:TextAppearance_Compat_Notification_Time:2131623942
+ style:TextAppearance_Compat_Notification_Title:2131623943
+ style:Theme_NefesAl:2131623944
+ xml:backup_rules:2131755008
+ xml:data_extraction_rules:2131755009
+Unused resources are: 
+ anim:fragment_fast_out_extra_slow_in:2130771968
+ animator:fragment_close_enter:2130837504
+ animator:fragment_close_exit:2130837505
+ animator:fragment_fade_enter:2130837506
+ animator:fragment_fade_exit:2130837507
+ animator:fragment_open_enter:2130837508
+ animator:fragment_open_exit:2130837509
+ color:black:2131034114
+ color:call_notification_answer_color:2131034115
+ color:call_notification_decline_color:2131034116
+ color:notification_action_color_filter:2131034117
+ color:notification_icon_bg_color:2131034118
+ color:purple_200:2131034119
+ color:purple_500:2131034120
+ color:purple_700:2131034121
+ color:teal_200:2131034122
+ color:teal_700:2131034123
+ color:white:2131034126
+ dimen:compat_button_inset_horizontal_material:2131099648
+ dimen:compat_button_inset_vertical_material:2131099649
+ dimen:compat_button_padding_horizontal_material:2131099650
+ dimen:compat_button_padding_vertical_material:2131099651
+ dimen:compat_control_corner_material:2131099652
+ dimen:compat_notification_large_icon_max_height:2131099653
+ dimen:compat_notification_large_icon_max_width:2131099654
+ dimen:notification_action_icon_size:2131099655
+ dimen:notification_action_text_size:2131099656
+ dimen:notification_big_circle_margin:2131099657
+ dimen:notification_content_margin_start:2131099658
+ dimen:notification_large_icon_height:2131099659
+ dimen:notification_large_icon_width:2131099660
+ dimen:notification_main_column_padding_top:2131099661
+ dimen:notification_media_narrow_margin:2131099662
+ dimen:notification_right_icon_size:2131099663
+ dimen:notification_right_side_padding_top:2131099664
+ dimen:notification_small_icon_background_padding:2131099665
+ dimen:notification_small_icon_size_as_large:2131099666
+ dimen:notification_subtext_size:2131099667
+ dimen:notification_top_pad:2131099668
+ dimen:notification_top_pad_large_text:2131099669
+ drawable:$ic_launcher_foreground__0:2131165184
+ drawable:foggy:2131165187
+ drawable:ic_call_answer:2131165188
+ drawable:ic_call_answer_low:2131165189
+ drawable:ic_call_answer_video:2131165190
+ drawable:ic_call_answer_video_low:2131165191
+ drawable:ic_call_decline:2131165192
+ drawable:ic_call_decline_low:2131165193
+ drawable:ic_launcher_foreground:2131165197
+ drawable:notification_action_background:2131165198
+ drawable:notification_bg:2131165199
+ drawable:notification_bg_low:2131165200
+ drawable:notification_bg_low_normal:2131165201
+ drawable:notification_bg_low_pressed:2131165202
+ drawable:notification_bg_normal:2131165203
+ drawable:notification_bg_normal_pressed:2131165204
+ drawable:notification_icon_background:2131165205
+ drawable:notification_oversize_large_icon_bg:2131165206
+ drawable:notification_template_icon_bg:2131165207
+ drawable:notification_template_icon_low_bg:2131165208
+ drawable:notification_tile_bg:2131165209
+ drawable:notify_panel_notification_icon_bg:2131165210
+ id:async:2131230759
+ id:chronometer:2131230761
+ id:edit_text_id:2131230765
+ id:forever:2131230766
+ id:fragment_container_view_tag:2131230767
+ id:hide_ime_id:2131230769
+ id:info:2131230773
+ id:line1:2131230777
+ id:line3:2131230778
+ id:nav_controller_view_tag:2131230779
+ id:normal:2131230780
+ id:notification_background:2131230781
+ id:notification_main_column:2131230782
+ id:notification_main_column_container:2131230783
+ id:right_icon:2131230786
+ id:right_side:2131230787
+ id:special_effects_controller_view_tag:2131230788
+ id:tag_on_receive_content_listener:2131230794
+ id:tag_on_receive_content_mime_types:2131230795
+ id:tag_transition_group:2131230798
+ id:visible_removing_fragment_view_tag:2131230810
+ layout:custom_dialog:2131361792
+ layout:notification_action:2131361795
+ layout:notification_action_tombstone:2131361796
+ layout:notification_template_custom_big:2131361797
+ layout:notification_template_icon_group:2131361798
+ layout:notification_template_part_chronometer:2131361799
+ layout:notification_template_part_time:2131361800
+ raw:firebase_common_keep:2131492864
+ raw:firebase_crashlytics_keep:2131492865
+ string:call_notification_answer_action:2131558404
+ string:call_notification_answer_video_action:2131558405
+ string:call_notification_decline_action:2131558406
+ string:call_notification_hang_up_action:2131558407
+ string:call_notification_incoming_text:2131558408
+ string:call_notification_ongoing_text:2131558409
+ string:call_notification_screening_text:2131558410
+ string:close_drawer:2131558415
+ string:close_sheet:2131558416
+ string:congratulations_message:2131558419
+ string:dropdown_menu:2131558425
+ string:future_date_error:2131558428
+ string:m3c_date_range_input_invalid_range_input:2131558470
+ string:m3c_date_range_input_title:2131558471
+ string:m3c_date_range_picker_day_in_range:2131558472
+ string:m3c_date_range_picker_end_headline:2131558473
+ string:m3c_date_range_picker_scroll_to_next_month:2131558474
+ string:m3c_date_range_picker_scroll_to_previous_month:2131558475
+ string:m3c_date_range_picker_start_headline:2131558476
+ string:m3c_date_range_picker_title:2131558477
+ string:m3c_dropdown_menu_collapsed:2131558479
+ string:m3c_dropdown_menu_expanded:2131558480
+ string:m3c_search_bar_search:2131558481
+ string:m3c_snackbar_dismiss:2131558482
+ string:m3c_suggestions_available:2131558483
+ string:m3c_tooltip_long_press_label:2131558496
+ string:m3c_tooltip_pane_description:2131558497
+ string:off:2131558509
+ string:on:2131558511
+ string:price_per_cigarette:2131558512
+ string:select_quit_date:2131558521
+ string:smoke_free_time:2131558524
+ style:FloatingDialogTheme:2131623937
+ style:FloatingDialogWindowTheme:2131623938
+ style:Widget_Compat_NotificationActionContainer:2131623945
+ style:Widget_Compat_NotificationActionText:2131623946

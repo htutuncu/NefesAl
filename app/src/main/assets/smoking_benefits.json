@@ -1,0 +1,26 @@
+{
+  "smoking_benefits": {
+    "tr": [
+      { "time": 20, "text": "20 dakika sonra kalp atım hızında düşme görülür." },
+      { "time": 720, "text": "18 ila 12 saat sonra kanda bulunan karbonmonoksit miktarı azalır." },
+      { "time": 2880, "text": "48 saat sonra daha gelişmiş bir tat ve koku duyusu." },
+      { "time": 20160, "text": "2 hafta ila 3 ay sonra daha düşük kalp krizi riski." },
+      { "time": 38880, "text": "1 ila 9 ay sonra nefes darlığı ve öksürükte azalma görülür." },
+      { "time": 525600, "text": "1 yıl sonra kalp ve damar hastalığı riski yarıya düşer." },
+      { "time": 2628000, "text": "5 yıl sonra daha düşük inme riski." },
+      { "time": 5256000, "text": "10 yıl sonra akciğer kanseri riski hiç sigara içmeyen biri ile aynıdır." },
+      { "time": 7884000, "text": "15 yıl sonra kalp hastalığına yakalanma riski hiç sigara içmemiş biri ile aynı olur." }
+    ],
+    "en": [
+      { "time": 20, "text": "After 20 minutes, heart rate decreases." },
+      { "time": 720, "text": "After 12 to 18 hours, the amount of carbon monoxide in the blood decreases." },
+      { "time": 2880, "text": "After 48 hours, an improved sense of taste and smell." },
+      { "time": 20160, "text": "After 2 weeks to 3 months, a lower risk of heart attack." },
+      { "time": 38880, "text": "After 1 to 9 months, reduced shortness of breath and coughing." },
+      { "time": 525600, "text": "After 1 year, the risk of cardiovascular disease is halved." },
+      { "time": 2628000, "text": "After 5 years, a lower risk of stroke." },
+      { "time": 5256000, "text": "After 10 years, the risk of lung cancer is the same as that of a non-smoker." },
+      { "time": 7884000, "text": "After 15 years, the risk of heart disease is the same as that of someone who has never smoked." }
+    ]
+  }
+}

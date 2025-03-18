@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breathe Now</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Home -->
+    <string name="welcome">Welcome!</string>
+    <string name="congratulations_message">Congratulations on your decision to quit smoking and choose a healthy lifestyle.</string>
+    <string name="select_quit_date">Select your quit date</string>
+    <string name="smoke_free_time">Smoke-Free Time</string>
+    <string name="quit_date">Quit Date</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minutes">Minute</string>
+    <string name="time_you_can_breathe">The Time You Can Breathe</string>
+    <string name="welcome_message">Congratulations on deciding to quit smoking and choosing a healthy lifestyle.</string>
+    <string name="choose_quit_time">Choose the quit date</string>
+    <string name="enter_statistics_to_go_on">You can start tracking your progress by entering your statistics.</string>
+    <string name="last_step">One last step left</string>
+
+
+
+    <!-- Achievements -->
+    <string name="achievements">Achievements</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_achievements">Achievements</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="language_system">System Language</string>
+    <string name="language_turkish">Turkish</string>
+    <string name="language_english">English</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="reset">Reset</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    
+    <!-- Dialog -->
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="smoking_stats_title">Statistics</string>
+    <string name="cigarettes_per_day">Cigarettes Per Day</string>
+    <string name="price_per_cigarette">Price Per Cigarette (₺)</string>
+    <string name="save">Save</string>
+    <string name="cigarettes_not_smoked">Cigarettes Not Smoked</string>
+    <string name="money_saved">Money Saved</string>
+    <string name="enter_smoking_stats">Enter Smoking Statistics</string>
+    <string name="update_smoking_stats">Update Smoking Statistics</string>
+    <string name="price_per_pack">Price Per Pack (₺)</string>
+    <string name="minutes_per_cigarette">Time to Smoke One Cigarette (min)</string>
+    <string name="time_saved">Time Saved</string>
+    <string name="time_format_days_hours">%1$d days %2$d h</string>
+    <string name="time_format_hours">%d h</string>
+    <string name="are_you_sure_reset">Are you sure?</string>
+    <string name="future_date_error">You cannot select a future date!</string>
+</resources> 

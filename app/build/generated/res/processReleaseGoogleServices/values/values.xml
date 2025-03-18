@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">285842254480</string>
+    <string name="google_api_key" translatable="false">AIzaSyCXWKbc3bFEmDDtbaPAQru9wipqK6gQxjo</string>
+    <string name="google_app_id" translatable="false">1:285842254480:android:410977684b80a5c15b4615</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCXWKbc3bFEmDDtbaPAQru9wipqK6gQxjo</string>
+    <string name="google_storage_bucket" translatable="false">nefes-al-d58c1.firebasestorage.app</string>
+    <string name="project_id" translatable="false">nefes-al-d58c1</string>
+</resources>
