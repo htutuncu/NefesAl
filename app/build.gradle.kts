@@ -14,9 +14,9 @@ android {
     defaultConfig {
         applicationId = "com.agonlabs.nefesal"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 4
-        versionName = "1.0.1"
+        targetSdk = 35
+        versionCode = 7
+        versionName = "1.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
